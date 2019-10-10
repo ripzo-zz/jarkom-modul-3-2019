@@ -82,7 +82,7 @@ nano /etc/squid3/squid.conf
 ```
 **STEP 3** - Kemudian, pada file config yang baru, ketikkan script:
 ```
-http_port 8080
+http_port 7777
 visible_hostname mewtwo
 ```
 ![Gambar](images/4.png)
