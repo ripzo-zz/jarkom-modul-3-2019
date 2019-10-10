@@ -239,7 +239,7 @@ nano /etc/squid3/bad-sites.acl
 ```
 elearning.if.its.ac.id
 ```
-![Gambar](images/18.png)
+![Gambar](images/19.png)
 
 **STEP 3** - Ubah file konfigurasi squid menjadi seperti berikut ini.
 
@@ -251,11 +251,11 @@ acl BLACKLISTS dstdomain "/etc/squid3/bad-sites.acl"
 http_access deny BLACKLISTS
 http_access allow all
 ```
-![Gambar](images/19.png)
+![Gambar](images/20.png)
 
 **STEP 4** - Restart squid. Kemudian cobalah untuk mengakses web **elearning.if.its.ac.id** (usahakan menggunakan mode **incognito/private**). Seharusnya muncul halaman error seperti di bawah ini.
 
-![Gambar](images/20.png)
+![Gambar](images/21.png)
 
 Keterangan:
 
@@ -270,7 +270,7 @@ Kita akan mencoba untuk membatasi bandwidth yang akan diberikan kepada user prox
 ```
 nano /etc/squid3/acl-bandwidth.conf
 ```
-![Gambar](images/21.png)
+![Gambar](images/22.png)
 
 **STEP 2** - Ketikkan baris berikut
 
@@ -281,7 +281,7 @@ delay_access 1 allow all
 delay_parameters 1 16000/64000
 ```
 
-![Gambar](images/22.png)
+![Gambar](images/23.png)
 
 **STEP 3** - Ubah konfigurasi squid3 menjadi:
 ```
@@ -290,7 +290,7 @@ http_port 8080
 visible_hostname mewtwo
 http_access allow all
 ```
-![Gambar](images/23.png)
+![Gambar](images/24.png)
 
 **STEP 4** - Restart Squid
 
