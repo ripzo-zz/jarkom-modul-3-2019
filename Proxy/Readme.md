@@ -110,6 +110,7 @@ service squid3 restart
 http_access allow all
 ```
 ![gambar](images/8.png)
+
 **Keterangan:**
 
 -   `http_access allow all` : Memperbolehkan semuanya untuk mengakses proxy via http. Pengaturan ini perlu ditambahkan karena pengaturan default squid adalah **deny** (Sintaks: `http_access allow 'TARGET'`)
@@ -125,20 +126,21 @@ Seharusnya halaman yang ditampilkan kembali normal.
 ```
 apt-get install apache2-utils
 ```
-![Gambar](images/8.png)
+![Gambar](images/9.png)
+
 **STEP 2** - Buat user dan password baru. Ketikkan:
 ```
 htpasswd -c /etc/squid3/passwd jarkom204
 ```
-![Gambar](images/9.png)
+![Gambar](images/10.png)
 
 Ketikkan password yang diinginkan. Jika sudah maka akan muncul notifikasi:
 
-![Gambar](images/10.png)
+![Gambar](images/11.png)
 
 **STEP 3** - Edit konfigurasi squid menjadi:
 ```
-http_port 8080
+http_port 7777
 visible_hostname mewtwo
 
 auth_param basic program /usr/lib/squid3/ncsa_auth /etc/squid3/passwd
@@ -149,7 +151,7 @@ auth_param basic casesensitive on
 acl USERS proxy_auth REQUIRED
 http_access allow USERS
 ```
-![Gambar]
+![Gambar](images/12.png)
 
 **Keterangan:**
 
@@ -166,7 +168,7 @@ http_access allow USERS
 
 **STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host, dan isikan port **8080**. Kemudian cobalah untuk mengakses web **elearning.if.its.ac.id** (usahakan menggunakan mode **incognito/private**), akan muncul pop-up untuk login.
 
-![Gambar](images/12.png)
+![Gambar](images/13.png)
 
 **STEP 6** - Isikan username dan password.
 
