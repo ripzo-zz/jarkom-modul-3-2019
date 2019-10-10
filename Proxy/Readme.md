@@ -80,12 +80,13 @@ mv /etc/squid3/squid.conf /etc/squid3/squid.conf.bak
 ```
 nano /etc/squid3/squid.conf
 ```
+![gambar](images/4.png)
 **STEP 3** - Kemudian, pada file config yang baru, ketikkan script:
 ```
 http_port 7777
 visible_hostname mewtwo
 ```
-![Gambar](images/4.png)
+![Gambar](images/5.png)
 **Keterangan:**
 
 -   `http_port 8080` : Port yang digunakan untuk mengakses proxy, dalam kasus ini adalah **8080**. (Sintaks: `http_port 'PORT_YANG_DIINGINKAN'`)
@@ -95,17 +96,17 @@ visible_hostname mewtwo
 ```
 service squid3 restart
 ```
-![gambar](images/5.png)
+![gambar](images/6.png)
 
 **STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host dan isikan port **8080**. Kemudian cobalah untuk mengakses web **[http://its.ac.id](http://its.ac.id)** (usahakan menggunakan mode **incognito/private**). Maka akan muncul halaman seperti berikut:
 
-![gambar](images/6.png)
+![gambar](images/7.png)
 
 **STEP 6** - Supaya bisa mengakses web **[http://its.ac.id](http://its.ac.id)**, maka kalian harus menambah sebaris script pada konfigurasi squid. Buka kembali file konfigurasi tadi dan tambahkan baris berikut:
 ```
 http_access allow all
 ```
-![gambar](images/7.png)
+![gambar](images/8.png)
 **Keterangan:**
 
 -   `http_access allow all` : Memperbolehkan semuanya untuk mengakses proxy via http. Pengaturan ini perlu ditambahkan karena pengaturan default squid adalah **deny** (Sintaks: `http_access allow 'TARGET'`)
