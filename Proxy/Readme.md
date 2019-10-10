@@ -65,7 +65,7 @@ apt-get install squid3
 ```
 service squid3 status
 ```
-[gambar](images/2.png)
+![gambar](images/2.png)
 
 Jika muncul status **ok** maka instalasi telah berhasil.
 
@@ -75,7 +75,7 @@ Jika muncul status **ok** maka instalasi telah berhasil.
 ```
 mv /etc/squid3/squid.conf /etc/squid3/squid.conf.bak
 ```
-[gambar](images/3.png)
+![gambar](images/3.png)
 **STEP 2** - Buat konfigurasi baru dengan mengetikkan:
 ```
 nano /etc/squid3/squid.conf
@@ -85,7 +85,7 @@ nano /etc/squid3/squid.conf
 http_port 8080
 visible_hostname mewtwo
 ```
-[Gambar](images/4.png)
+![Gambar](images/4.png)
 **Keterangan:**
 
 -   `http_port 8080` : Port yang digunakan untuk mengakses proxy, dalam kasus ini adalah **8080**. (Sintaks: `http_port 'PORT_YANG_DIINGINKAN'`)
@@ -95,16 +95,17 @@ visible_hostname mewtwo
 ```
 service squid3 restart
 ```
-[gambar](images/5.png)
+![gambar](images/5.png)
 
 **STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host dan isikan port **8080**. Kemudian cobalah untuk mengakses web **[http://its.ac.id](http://its.ac.id)** (usahakan menggunakan mode **incognito/private**). Maka akan muncul halaman seperti berikut:
-[gambar](images/6.png)
+
+![gambar](images/6.png)
 
 **STEP 6** - Supaya bisa mengakses web **[http://its.ac.id](http://its.ac.id)**, maka kalian harus menambah sebaris script pada konfigurasi squid. Buka kembali file konfigurasi tadi dan tambahkan baris berikut:
 ```
 http_access allow all
 ```
-[gambar](images/7.png)
+![gambar](images/7.png)
 **Keterangan:**
 
 -   `http_access allow all` : Memperbolehkan semuanya untuk mengakses proxy via http. Pengaturan ini perlu ditambahkan karena pengaturan default squid adalah **deny** (Sintaks: `http_access allow 'TARGET'`)
@@ -120,16 +121,16 @@ Seharusnya halaman yang ditampilkan kembali normal.
 ```
 apt-get install apache2-utils
 ```
-[Gambar](images/8.png)
+![Gambar](images/8.png)
 **STEP 2** - Buat user dan password baru. Ketikkan:
 ```
 htpasswd -c /etc/squid3/passwd jarkom204
 ```
-[Gambar](images/9.png)
+![Gambar](images/9.png)
 
 Ketikkan password yang diinginkan. Jika sudah maka akan muncul notifikasi:
 
-[Gambar](images/10.png)
+![Gambar](images/10.png)
 
 **STEP 3** - Edit konfigurasi squid menjadi:
 ```
@@ -144,7 +145,7 @@ auth_param basic casesensitive on
 acl USERS proxy_auth REQUIRED
 http_access allow USERS
 ```
-[Gambar]
+![Gambar]
 
 **Keterangan:**
 
@@ -161,7 +162,7 @@ http_access allow USERS
 
 **STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host, dan isikan port **8080**. Kemudian cobalah untuk mengakses web **elearning.if.its.ac.id** (usahakan menggunakan mode **incognito/private**), akan muncul pop-up untuk login.
 
-[Gambar](images/11.png)
+![Gambar](images/12.png)
 
 **STEP 6** - Isikan username dan password.
 
@@ -175,13 +176,13 @@ Kita akan mencoba membatasi akses proxy pada hari dan jam tertentu. Asumsikan pr
 ```
 nano /etc/squid3/acl.conf
 ```
-[Gambar](images/12.png)
+![Gambar](images/13.png)
 
 **STEP 2** - Tambahkan baris berikut
 ```
 acl KERJA time MTWHF 08:00-16:00
 ```
-[Gambar](images/13.png)
+![Gambar](images/14.png)
 
 **STEP 3** - Simpan file **acl.conf**.
 
@@ -203,12 +204,12 @@ http_access deny all
 visible_hostname mewtwo
 
 ```
-[Gambar](images/14.png)
+![Gambar](images/15.png)
 **STEP 6** - Simpan file tersebut. Kemudian restart squid.
 
 **STEP 7** - Cobalah untuk mengakses web **[http://its.ac.id](http://its.ac.id)** (usahakan menggunakan mode **incognito/private**). Akan muncul halaman error jika mengakses diluar waktu yang telah ditentukan.
 
-[Gambar](images/15.png)
+![Gambar](images/16.png)
 
 Keterangan:
 
@@ -225,13 +226,13 @@ Kita akan mencoba membatasi akses ke beberapa website. Untuk contoh disini, kita
 nano /etc/squid3/bad-sites.acl
 ```
 
-[Gambar](images/16.png)
+![Gambar](images/17.png)
 
 **STEP 2** - Tambahkan alamat url yang akan diblock seperti baris berikut:
 ```
 elearning.if.its.ac.id
 ```
-[Gambar](images/17.png)
+![Gambar](images/18.png)
 
 **STEP 3** - Ubah file konfigurasi squid menjadi seperti berikut ini.
 
@@ -243,11 +244,11 @@ acl BLACKLISTS dstdomain "/etc/squid3/bad-sites.acl"
 http_access deny BLACKLISTS
 http_access allow all
 ```
-[Gambar](images/18.png)
+![Gambar](images/19.png)
 
 **STEP 4** - Restart squid. Kemudian cobalah untuk mengakses web **elearning.if.its.ac.id** (usahakan menggunakan mode **incognito/private**). Seharusnya muncul halaman error seperti di bawah ini.
 
-[Gambar](images/19.png)
+![Gambar](images/20.png)
 
 Keterangan:
 
@@ -262,7 +263,7 @@ Kita akan mencoba untuk membatasi bandwidth yang akan diberikan kepada user prox
 ```
 nano /etc/squid3/acl-bandwidth.conf
 ```
-[Gambar](images/20.png)
+![Gambar](images/21.png)
 
 **STEP 2** - Ketikkan baris berikut
 
@@ -273,7 +274,7 @@ delay_access 1 allow all
 delay_parameters 1 16000/64000
 ```
 
-[Gambar](images/21.png)
+![Gambar](images/22.png)
 
 **STEP 3** - Ubah konfigurasi squid3 menjadi:
 ```
@@ -282,7 +283,7 @@ http_port 8080
 visible_hostname mewtwo
 http_access allow all
 ```
-[Gambar](images/22.png)
+![Gambar](images/23.png)
 
 **STEP 4** - Restart Squid
 
