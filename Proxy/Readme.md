@@ -76,17 +76,20 @@ Jika muncul status **ok** maka instalasi telah berhasil.
 mv /etc/squid3/squid.conf /etc/squid3/squid.conf.bak
 ```
 ![gambar](images/3.png)
+
 **STEP 2** - Buat konfigurasi baru dengan mengetikkan:
 ```
 nano /etc/squid3/squid.conf
 ```
 ![gambar](images/4.png)
+
 **STEP 3** - Kemudian, pada file config yang baru, ketikkan script:
 ```
 http_port 7777
 visible_hostname mewtwo
 ```
 ![Gambar](images/5.png)
+
 **Keterangan:**
 
 -   `http_port 8080` : Port yang digunakan untuk mengakses proxy, dalam kasus ini adalah **8080**. (Sintaks: `http_port 'PORT_YANG_DIINGINKAN'`)
