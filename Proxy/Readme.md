@@ -308,13 +308,13 @@ Keterangan:
 -   Penjelasan dari fitur **delay_pools** lebih lengkap bisa dilihat di [https://wiki.squid-cache.org/Features/DelayPools](https://wiki.squid-cache.org/Features/DelayPools)
 
 ## 2.3 Soal Latihan
-Sutlin adalah seorang mahasiswi Informatika ITS. Dia ingin membuat sebuah proxy sendiri. Proxy yang akan dibuat nantinya harus bisa diakses dengan nama proxy.xxx.id dan port yang digunakan 7777. Dia ingin ada login terlebih dahulu saat menggunakan proxy. Untuk akun yang akan digunakan untuk dirinya sendiri, dia ingin menggunakan username cukurinakumas dan password 4su. Proxy ini nantinya hanya bisa digunakan saat sutlin sedang ada kelas. Jadwal kelas sutlin adalah Senin, Rabu, dan Kamis mulai jam 7 pagi sampai jam 4 sore. Kemudian, dia ingin membatasi agar hanya user dari Informatics_wifi saja yang bisa menggunakan proxy tersebut. Lalu, dia teringat kalau dulu dia pernah ditolak masuk Unair. Oleh karena itu dia memutuskan untuk memblokir website Unair (unair.ac.id) beserta seluruh subdomain yang ada. Supaya adil, dia ingin agar seluruh user mendapatkan bandwidth yang sama, yaitu 512 kbps.
+Sutlin adalah seorang mahasiswi Informatika ITS. Dia ingin membuat sebuah proxy sendiri. Proxy yang akan dibuat nantinya harus bisa diakses dengan nama proxy.xx.id dan port yang digunakan 7777. Dia ingin ada login terlebih dahulu saat menggunakan proxy. Untuk akun yang akan digunakan untuk dirinya sendiri, dia ingin menggunakan username cukurinakumas dan password 4su. Proxy ini nantinya hanya bisa digunakan saat sutlin sedang ada kelas. Jadwal kelas sutlin adalah Senin, Rabu, dan Kamis mulai jam 7 pagi sampai jam 4 sore. Kemudian, dia ingin membatasi agar hanya user dari Informatics_wifi saja yang bisa menggunakan proxy tersebut. Lalu, dia teringat kalau dulu dia pernah ditolak masuk Unair. Oleh karena itu dia memutuskan untuk memblokir website Unair (unair.ac.id) beserta seluruh subdomain yang ada. Supaya adil, dia ingin agar seluruh user mendapatkan bandwidth yang sama, yaitu 512 kbps.
 
 Karena sutlin ternyata sangat sibuk, maka dia meminta bantuan kalian untuk membuatkan proxy seperti yang dia minta. Cobalah untuk memenuhi permintaan sutlin supaya sutlin merasa senang.
 
 Keterangan:
 
--    xxx adalah kelompok kalian masing-masing. Misal: a1
+-    xx adalah kelompok kalian masing-masing. Misal: a1
 
 ## 2.4 Referensi 
 -   **Manual Squid3** : [http://www.visolve.com/uploads/resources/squid30.pdf](http://www.visolve.com/uploads/resources/squid30.pdf)
