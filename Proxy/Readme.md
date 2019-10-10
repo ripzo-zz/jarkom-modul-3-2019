@@ -182,13 +182,13 @@ Kita akan mencoba membatasi akses proxy pada hari dan jam tertentu. Asumsikan pr
 ```
 nano /etc/squid3/acl.conf
 ```
-![Gambar](images/13.png)
+![Gambar](images/14.png)
 
 **STEP 2** - Tambahkan baris berikut
 ```
 acl KERJA time MTWHF 08:00-16:00
 ```
-![Gambar](images/14.png)
+![Gambar](images/15.png)
 
 **STEP 3** - Simpan file **acl.conf**.
 
@@ -210,12 +210,13 @@ http_access deny all
 visible_hostname mewtwo
 
 ```
-![Gambar](images/15.png)
+![Gambar](images/16.png)
+
 **STEP 6** - Simpan file tersebut. Kemudian restart squid.
 
 **STEP 7** - Cobalah untuk mengakses web **[http://its.ac.id](http://its.ac.id)** (usahakan menggunakan mode **incognito/private**). Akan muncul halaman error jika mengakses diluar waktu yang telah ditentukan.
 
-![Gambar](images/16.png)
+![Gambar](images/17.png)
 
 Keterangan:
 
@@ -232,7 +233,7 @@ Kita akan mencoba membatasi akses ke beberapa website. Untuk contoh disini, kita
 nano /etc/squid3/bad-sites.acl
 ```
 
-![Gambar](images/17.png)
+![Gambar](images/18.png)
 
 **STEP 2** - Tambahkan alamat url yang akan diblock seperti baris berikut:
 ```
