@@ -19,7 +19,7 @@
 
 ## 1.1 Konsep
 ### 1.1.1 Pendahuluan
-Pada modul-modul sebelumnya, kita telah mempelajari cara mengonfigurasi
+Pada modul-modul sebelumnya, kita telah mempelajari cara mengonfigurasi IP, nameserver, gateway, dan subnetmask pada UML secara manual. Metode manual ini dapat diimplementasikan pada jaringan yang memiliki sedikit host tanpa banyak 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUyODQ3NjUsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbLTE5OTUwMzA3OTksMjA5MDMyOTE0OF19
 -->
