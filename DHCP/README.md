@@ -21,7 +21,10 @@
 ### 1.1.1 Pendahuluan
 Pada modul-modul sebelumnya, kita telah mempelajari cara mengonfigurasi IP, nameserver, gateway, dan subnetmask pada UML secara manual. Metode manual ini oke-oke saja saat diimplementasikan pada jaringan yang memiliki sedikit host. Tapi bagaimana jika jaringan tersebut memiliki banyak host? Jaringan WiFi umum misalnya. Apakah Administrator Jaringannya harus mengonfigurasi setiap host-nya satu per satu? Membayangkannya saja mengerikan, ya.
 
-Di sinilah DHCP akan
+Di sinilah peran DHCP sangat dibutuhkan.
+
+### 1.1.2 Apa itu DHCP?
+__Dynamic Host Configuration Protocol (DHCP)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDE1MDkyMiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTE0Mjc4NzAwMzMsMjA5MDMyOTE0OF19
 -->
