@@ -16,6 +16,10 @@
 	   + [1.2.5 Testing](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#125-testing)
 	+ [1.3 Soal Latihan](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#13-soal-latihan)
 	+ [1.4 Referensi](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#14-referensi)
+
+## 1.1 Konsep
+### 1.1.1 Pendahuluan
+Pada modul-modul sebelumnya, kita telah mempelajari cara mengonfigurasi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNDk1NDksMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbLTE1NjUyODQ3NjUsMjA5MDMyOTE0OF19
 -->
