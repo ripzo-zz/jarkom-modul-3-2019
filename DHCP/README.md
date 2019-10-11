@@ -26,11 +26,11 @@ Di sinilah peran DHCP sangat dibutuhkan.
 ### 1.1.2 Apa itu DHCP?
 __Dynamic Host Configuration Protocol (DHCP)__  adalah protokol berbasis arsitektur _client-server_ yang dipakai untuk memudahkan pengalokasian alamat IP dalam satu jaringan. DHCP secara otomatis akan meminjamkan alamat IP kepada host yang memintanya.
 
-!
+![cara kerja DHCP](images/cara-ker)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjM5NzgxNCwxMTMwMzczMjQ1LDIxMz
+eyJoaXN0b3J5IjpbMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMz
 AwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5
 MTQ4XX0=
 -->
