@@ -1,4 +1,9 @@
-## 1. Dynamic Host Configuration Protocol (DHCP_
+## 1. Dynamic Host Configuration Protocol (DHCP)
+## Outline
++ [1. Dynamic Host Configuration Protocol (DHCP)]()
+	+ [Outline]()
+	+ [1.1 Konsep]()
+	+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDQzMDA1Ml19
+eyJoaXN0b3J5IjpbMTk2MzI1MTgxXX0=
 -->
