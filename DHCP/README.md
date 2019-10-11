@@ -24,8 +24,8 @@ Pada modul-modul sebelumnya, kita telah mempelajari cara mengonfigurasi IP, name
 Di sinilah peran DHCP sangat dibutuhkan.
 
 ### 1.1.2 Apa itu DHCP?
-__Dynamic Host Configuration Protocol (DHCP)__  a
+__Dynamic Host Configuration Protocol (DHCP)__  adalah protokol berbasis arsitektur _client-server_ yang dipakai untuk memudahkan pengalokasian IP dalam satu jaringan. DHCP 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM5ODkyOTksLTIwNzc4MzIzMTQsLT
-U2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNT
+YxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
