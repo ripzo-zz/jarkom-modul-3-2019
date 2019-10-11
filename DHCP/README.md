@@ -24,8 +24,8 @@ Pada modul-modul sebelumnya, kita telah mempelajari cara mengonfigurasi IP, name
 Di sinilah peran DHCP sangat dibutuhkan.
 
 ### 1.1.2 Apa itu DHCP?
-__Dynamic Host Configuration Protocol (DHCP)__  
+__Dynamic Host Configuration Protocol (DHCP)__  a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMD
-kwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTExODM5ODkyOTksLTIwNzc4MzIzMTQsLT
+U2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
