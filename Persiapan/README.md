@@ -55,8 +55,8 @@ export http_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
 export https_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
 export ftp_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
 ```
-Export proxy dilakukan 
+Export proxy dilakukan supaya setiap UML bisa melewati proxy ITS dan bisa meng-_install_ sesuatu.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ2NjM5MjEsMjE0NTAxMDUwOCw2MD
+eyJoaXN0b3J5IjpbLTEzMTAwNzA1NDIsMjE0NTAxMDUwOCw2MD
 cyNDIyNDJdfQ==
 -->
