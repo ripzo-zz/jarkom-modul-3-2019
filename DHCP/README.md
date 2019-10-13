@@ -29,8 +29,10 @@ __Dynamic Host Configuration Protocol (DHCP)__  adalah protokol berbasis arsitek
 ![cara kerja DHCP](images/cara-kerja.png)
 
 Tanpa DHCP, administrator jaringan harus memasukkan alamat IP masing-masing komputer dalam suatu jaringan secara manual. Namun jika DHCP dipasang di jaringan, maka semua komputer yang tersambung ke jaringan akan mendapatkan alamat IP secara otomatis dari DHCP server.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODYwMTAzMSwtMTEyMDU4ODc5MSwxMz
-c4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3Nzgz
-MjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTE2MDkyOTU3MDksLTExMjA1ODg3OTEsMT
+M3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4
+MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
