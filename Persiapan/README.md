@@ -38,8 +38,16 @@ apt-get update
 ```
 apt-get install isc-dhcp-server
 ```
-3. 
+3. Install __squid3__ pada server __MEWTWO__
+```
+apt-get install squid3
+```
+4. Install __bind9__ pada server __ARTICUNO__
+```
+apt-get install bind9
+```
+# PENTING UNTUK 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMwMDE0NjksMjE0NTAxMDUwOCw2MD
-cyNDIyNDJdfQ==
+eyJoaXN0b3J5IjpbMTUyMzMyNTU0NiwyMTQ1MDEwNTA4LDYwNz
+I0MjI0Ml19
 -->
