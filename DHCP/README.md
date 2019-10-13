@@ -31,9 +31,13 @@ __Dynamic Host Configuration Protocol (DHCP)__  adalah protokol berbasis arsitek
 Tanpa DHCP, administrator jaringan harus memasukkan alamat IP masing-masing komputer dalam suatu jaringan secara manual. Namun jika DHCP dipasang di jaringan, maka semua komputer yang tersambung ke jaringan akan mendapatkan alamat IP secara otomatis dari DHCP server.
 
 ### 1.1.3 Bootstrap Protocol dan Dynamic Host Configuration Protocol
-Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP dalam suatu jaringan, yaitu Bootstrap Protocol (BOOTP). 
+Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP dalam suatu jaringan, yaitu Bootstrap Protocol (BOOTP). Perbedaan BOOTP dan DHCP terletak pada proses konfigurasinya.
+
+| BOOTP | DHCP |
+| --- | --- |
+|Administrator jaringan melakukan konfigurasi mapping MAC Address client dengan IP tertentu. | Server akan melakukan peminjaman IP Address dan konfigurasi lainnya dalam rentang waktu tertentu. Protokol ini dibuat berda
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjUyMTg5MCwtMTEyMDU4ODc5MSwxMz
-c4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3Nzgz
-MjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTExNzE0ODQ3MTEsLTExMjA1ODg3OTEsMT
+M3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4
+MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
