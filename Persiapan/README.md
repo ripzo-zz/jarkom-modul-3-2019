@@ -2,7 +2,7 @@
 ## 1. Membuat Topologi Baru
 Berikut adalah topologi jaringan yang akan digunakan pada modul 3 ini:
 
-![topologi modul 3](img/topologiM3.png)
+![topologi modul 3](images/topologiM3.png)
 
 1. Hapus file UML lama bekas praktikum kemarin dengan perintah
 ```
@@ -61,6 +61,6 @@ Export proxy dilakukan supaya setiap UML bisa melewati proxy ITS dan bisa meng-_
 
 # Semoga lancar :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzU5NjMwLC0xMzEwMDcwNTQyLDIxND
-UwMTA1MDgsNjA3MjQyMjQyXX0=
+eyJoaXN0b3J5IjpbLTQ5NTgzMTA0NywtNjE3NTk2MzAsLTEzMT
+AwNzA1NDIsMjE0NTAxMDUwOCw2MDcyNDIyNDJdfQ==
 -->
