@@ -38,7 +38,8 @@ apt-get update
 ```
 apt-get install isc-dhcp-server
 ```
-
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTAxMDUwOCw2MDcyNDIyNDJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzMwMDE0NjksMjE0NTAxMDUwOCw2MD
+cyNDIyNDJdfQ==
 -->
