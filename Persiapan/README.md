@@ -34,7 +34,11 @@ Lakukan langkah-langkah berikut:
 ```
 apt-get update
 ```
-2. 
+2. Install __isc-dhcp-server__ pada router __PIKACHU__
+```
+apt-get install isc-dhcp-server
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjM3MjkxOCw2MDcyNDIyNDJdfQ==
+eyJoaXN0b3J5IjpbMjE0NTAxMDUwOCw2MDcyNDIyNDJdfQ==
 -->
