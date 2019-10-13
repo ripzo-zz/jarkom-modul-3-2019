@@ -82,9 +82,9 @@ Langkah pertama yang harus dilakukan setelah instalasi adalah menentukan interfa
 	```
 	nano /etc/default/isc-dhcp-server
 	```
-2. Menentukan interface. Coba topologi yang telah kalian buat. Interface dari router **BAKSO** yang menuju ke client **SOTO**, **KARI**, dan **PECEL** adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
+2. Menentukan interface. Coba topologi yang telah kalian buat. Interface dari router __PIKACHU__ yang menuju ke client __PSYDUCK__, __SNORLAX__, dan __CUBONE__ adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzA3MjA1OCwxNzM3NTk5NDUwLC0xMD
+eyJoaXN0b3J5IjpbMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMD
 czOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMy
 NDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLD
 IwOTAzMjkxNDhdfQ==
