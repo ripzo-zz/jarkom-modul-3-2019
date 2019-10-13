@@ -28,7 +28,13 @@ gateway 192.168.0.1
 Pada modul 3 kita akan menggunakan 3 aplikasi, yaitu:
 + __isc-dhcp-server__ (DHCP Server)
 + __squid3__ (Proxy Server)
-+ __bind9__ (DNS)
++ __bind9__ (DNS Server)
+Lakukan langkah-langkah berikut:
+1. Lakukan update pada __PIKACHU__, __ARTICUNO__, dan __MEWTWO__.
+```
+apt-get update
+```
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODk3MjI5OSw2MDcyNDIyNDJdfQ==
+eyJoaXN0b3J5IjpbMTgzMjM3MjkxOCw2MDcyNDIyNDJdfQ==
 -->
