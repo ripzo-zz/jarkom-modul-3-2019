@@ -36,8 +36,16 @@ Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP
 | BOOTP | DHCP |
 | --- | --- |
 |Administrator jaringan melakukan konfigurasi mapping MAC Address client dengan IP tertentu. | Server akan melakukan peminjaman IP Address dan konfigurasi lainnya dalam rentang waktu tertentu. Protokol ini dibuat berdasarkan cara kerja BOOTP |
+
+### 1.1.4 DHCP Message Header
+
+![DHCP header]()
+
+![DHCP header]()
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTk2NTY5LC0xMTIwNTg4NzkxLDEzNz
-gxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMy
-MzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbMTg4MTU0MzYyNSwtMTEyMDU4ODc5MSwxMz
+c4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3Nzgz
+MjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
