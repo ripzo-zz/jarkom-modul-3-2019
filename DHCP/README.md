@@ -58,9 +58,11 @@ Terdapat 4 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
 	4. __DHCPACK__: DHCP server menyetujui permintaan alamat IP dari client dengan mengirimkan paket ACKnoledgment berupa konfirmasi alamat IP dan informasi lain. Kemudian client melakukan inisialisasi dengan mengikat (binding) alamat IP tersebut dan client dapat bekerja pada jaringan tersebut. DHCP Server akan mencatat peminjaman yang terjadi.
 	5. __DHCPRELEASE__: Client menghentikan peminjaman alamat IP (apabila waktu peminjaman habis atau menerima DHCPNAK).
 
-![]
+![Something]()
+
+## 1.2 I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDkwMDY3NywtMTEyMDU4ODc5MSwxMz
-c4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3Nzgz
-MjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTExNTAwMTQzMTQsLTExMjA1ODg3OTEsMT
+M3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4
+MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
