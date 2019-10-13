@@ -74,10 +74,11 @@ apt-get install isc-dhcp-server
 
 ![install DHCP Server](images/1.png)
 
-**[FAIL]** Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah proses instalasinya, namun proses `starting ISC DHCP server`. Hal ini terjadi karena kita belum mengonfigurasi interface-nya. Mari kita lanjutkan ke langkah selanjutnya!
+__[FAIL]__ Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah proses instalasinya, namun proses `starting ISC DHCP server`. Hal ini terjadi karena kita belum mengonfigurasi interface-nya. Mari kita lanjutkan ke langkah berikutnya!
+### 1.2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNzkxMjcyLC0xMDczOTI1OCwtMTEyMD
-U4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2
-NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ
-==
+eyJoaXN0b3J5IjpbLTE0NzQxMTk1ODgsLTEwNzM5MjU4LC0xMT
+IwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3
+ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF
+19
 -->
