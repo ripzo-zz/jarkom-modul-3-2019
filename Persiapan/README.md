@@ -56,7 +56,11 @@ export https_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
 export ftp_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
 ```
 Export proxy dilakukan supaya setiap UML bisa melewati proxy ITS dan bisa meng-_install_ sesuatu.
+
+3. Melakukan `apt-get update` sebelum meng-_install_ sesuatu.
+
+# Semoga lancar :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAwNzA1NDIsMjE0NTAxMDUwOCw2MD
-cyNDIyNDJdfQ==
+eyJoaXN0b3J5IjpbLTYxNzU5NjMwLC0xMzEwMDcwNTQyLDIxND
+UwMTA1MDgsNjA3MjQyMjQyXX0=
 -->
