@@ -78,10 +78,14 @@ __[FAIL]__ Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah
 
 ### 1.2.2 Konfigurasi DHCP Server
 Langkah pertama yang harus dilakukan setelah instalasi adalah menentukan interface mana yang akan diberikan layanan DHCP. Konfigurasi interface terletak di `/etc/default/isc-dhcp-server`. Untuk menentukan interface, ikuti langkah-langkah berikut:
-1. Buka file  _jarkomtc.com_
+1. Buka file konfigurasi dengan perintah
+	```
+	nano /etc/default/isc-dhcp-server
+	```
+2. Menentukan interface. Coba topologi yang telah kalian buat. Interface dari router **BAKSO** yang menuju ke client **SOTO**, **KARI**, dan **PECEL** adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI0MjA0NTcsMTczNzU5OTQ1MCwtMT
-A3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzcz
-MjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0Mi
-wyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbMTcwMzA3MjA1OCwxNzM3NTk5NDUwLC0xMD
+czOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMy
+NDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLD
+IwOTAzMjkxNDhdfQ==
 -->
