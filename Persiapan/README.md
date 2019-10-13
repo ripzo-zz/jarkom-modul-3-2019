@@ -46,8 +46,11 @@ apt-get install squid3
 ```
 apt-get install bind9
 ```
-# PENTING UNTUK 
+# PENTING UNTUK DIINGAT!!!
+Ada beberapa hal dasar yang harus dilakukan setiap kali UML dijalankan:
+1. Menjalankan `iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16` pada router __PIKACHU__ agar client bisa terhubung dengan internet.
+2. Menjalankan __export proxy__ pada __semua UML__ menggunakan aku
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzMyNTU0NiwyMTQ1MDEwNTA4LDYwNz
-I0MjI0Ml19
+eyJoaXN0b3J5IjpbLTEyOTY5NDc5MjYsMjE0NTAxMDUwOCw2MD
+cyNDIyNDJdfQ==
 -->
