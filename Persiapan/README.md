@@ -49,8 +49,14 @@ apt-get install bind9
 # PENTING UNTUK DIINGAT!!!
 Ada beberapa hal dasar yang harus dilakukan setiap kali UML dijalankan:
 1. Menjalankan `iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16` pada router __PIKACHU__ agar client bisa terhubung dengan internet.
-2. Menjalankan __export proxy__ pada __semua UML__ menggunakan aku
+2. Menjalankan __export proxy__ pada __semua UML__ menggunakan akun VPN yang bisa didapatkan di [https://id.its.ac.id/otp/](https://id.its.ac.id/otp/).
+```
+export http_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
+export https_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
+export ftp_proxy="http://usernameVPN:passVPN@proxy.its.ac.id:8080";
+```
+Export proxy dilakukan 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY5NDc5MjYsMjE0NTAxMDUwOCw2MD
+eyJoaXN0b3J5IjpbLTE5ODQ2NjM5MjEsMjE0NTAxMDUwOCw2MD
 cyNDIyNDJdfQ==
 -->
