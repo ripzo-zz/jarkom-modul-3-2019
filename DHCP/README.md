@@ -41,11 +41,17 @@ Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP
 
 ![DHCP header]()
 
-![DHCP header]()
+![DHCP header legend]()
 
+### 1.1.5 Cara Kerja DHCP
+DHCP bekerja dengan melibatkan dua pihak yakni __Server__ dan __Client__:
+	1. __DHCP Server__ memberikan suatu layanan yang dapat memberikan alamat IP dan parameter lainnya kepada semua client yang memintanya.
+	2. __DHCP Client__ adalah mesin client yang menjalankan perangkat lunak client yang memungkinkan mereka untuk dapat berkomunikasi dengan DHCP server.
+DHCP Server umumnya memiliki sekumpulan alamat IP yang didistribusikan yang disebut DHCP Pool. Setiap client akan meminjamnya untuk rentan waktu yang ditentukan oleh DHCP sendiri (dalam konfigurasi). Jika masa waktu habis, maka client akan meminta alamat IP yang baru atau memperpanjangnya. Itulah sebabnya alamat IP client menjadi dinamis.
 
+![]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTU0MzYyNSwtMTEyMDU4ODc5MSwxMz
-c4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3Nzgz
-MjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbODYyMzAzMzcyLC0xMTIwNTg4NzkxLDEzNz
+gxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMy
+MzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
 -->
