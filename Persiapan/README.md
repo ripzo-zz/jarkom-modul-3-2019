@@ -16,7 +16,16 @@ rm PIKACHU MOLTRES MEWTWO ARTICUNO switch0 switch1 PSYDUCK SNORLAX
 
 ## 2. Konfigurasi Interface
 Konfigurasi interface masih sama seperti [Modul Pengenalan UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML), dengan tambahan:
-
+#### CUBONE (Sebagai Client)
+```
+auto eth0
+iface eth0 inet static
+address 192.168.0.4
+netmask 255.255.255.0
+gateway 192.168.0.1
+```
+## 3. Instalasi
+Pada modul 3, kita akan menggunakan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQzODY0MTAsNjA3MjQyMjQyXX0=
+eyJoaXN0b3J5IjpbMjcxMTkyNzgyLDYwNzI0MjI0Ml19
 -->
