@@ -60,9 +60,11 @@ Terdapat 4 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
 
 ![Something]()
 
-## 1.2 I
+## 1.2 Implementasi
+### 1.2.1 Instalasi ISC-DHCP-Server
+Pada topologi ini, kita akan menjadikan router __PIKACHU__ sebagai DHCP Server. Oleh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAwMTQzMTQsLTExMjA1ODg3OTEsMT
-M3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4
-MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTc4MzU4NjQwMiwtMTEyMDU4ODc5MSwxMz
+c4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3Nzgz
+MjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
