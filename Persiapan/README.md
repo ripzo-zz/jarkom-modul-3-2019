@@ -12,7 +12,11 @@ rm PIKACHU MOLTRES MEWTWO ARTICUNO switch0 switch1 PSYDUCK SNORLAX
 	+ Memori _client_ __PSYDUCK__, __SNORLAX__, dan __CUBONE__ adalah __64M__.
 	+ Memori router __PIKACHU__ adalah __256M__ karena akan menjadi DHCP Server.
 	+ Memori server __ARTICUNO__ dan __MEWTWO__ adalah __128M__ karena akan menjadi DNS Server dan Proxy Server.
-3. Langkah-langkah lengkapnya dapat dilihat pada [Modul Pengenalan UML]().
+3. Langkah-langkah lengkapnya dapat dilihat pada [Modul Pengenalan UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML).
+
+## 2. Konfigurasi Interface
+Konfigurasi interface masih sama seperti [Modul Pengenalan UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML), dengan tambahan:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjgyOTE1Niw2MDcyNDIyNDJdfQ==
+eyJoaXN0b3J5IjpbLTE5MjQzODY0MTAsNjA3MjQyMjQyXX0=
 -->
