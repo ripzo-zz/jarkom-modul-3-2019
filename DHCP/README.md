@@ -84,11 +84,11 @@ Langkah-langkah yang harus dilakukan setelah instalasi adalah:
 	nano /etc/default/isc-dhcp-server
 	```
 2. Menentukan interface. Coba topologi yang telah kalian buat. Interface dari router __PIKACHU__ yang menuju ke client __PSYDUCK__, __SNORLAX__, dan __CUBONE__ adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
-```
-INTERFACES="eth2"
-```
+	```
+	INTERFACES="eth2"
+	```
 
-![setting interface](images/2.png)
+	![setting interface](images/2.png)
 
 #### B. Langkah selanjutnya adalah __mengonfigurasi DHCP
 Ada banyak hal yang dapat dikonfigurasi, antara lain:
@@ -96,9 +96,9 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 + DNS Server
 + Informasi Netmask
 + Default Gateway
-+ dll
+dll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTkyNTg3MywxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbLTE2OTI0ODc0MCwxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
