@@ -276,12 +276,15 @@ Setelah melakukan berbagai konfigurasi di atas, kalian bisa memastikan apakah DH
 
 Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang telah dikonfigurasi DHCP dan __CUBONE__ tetap mendapatkan IP 192.168.0.15, maka konfigurasi DHCP server kalian berhasil.
 
-## Refere
+## Referensi
+-   **Manual ISC DHCP** : [https://www.isc.org/wp-content/uploads/2018/10/dhcpd44.html](https://www.isc.org/wp-content/uploads/2018/10/dhcpd44.html)
+-   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
+-   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU0ODI2NzQsLTEwNjM0MzkxNTUsLT
-EzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2
-NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OC
-wtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEz
-MDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMj
-kxNDhdfQ==
+eyJoaXN0b3J5IjpbNzYzMTY2MTQ0LC0xMDYzNDM5MTU1LC0xMz
+A5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OCwtMTQ1NjU2
+MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLT
+ExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAw
+Mjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MT
+Q4XX0=
 -->
