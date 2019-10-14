@@ -77,8 +77,9 @@ apt-get install isc-dhcp-server
 __[FAIL]__ Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah proses instalasinya, namun proses `starting ISC DHCP server`. Hal ini terjadi karena kita belum mengonfigurasi interface-nya. Mari kita lanjutkan ke langkah berikutnya!
 
 ### 1.2.2 Konfigurasi DHCP Server
-Langkah pertama yang harus dilakukan setelah instalasi adalah menentukan interface mana yang akan diberikan layanan DHCP. Konfigurasi interface terletak di `/etc/default/isc-dhcp-server`. Untuk menentukan interface, ikuti langkah-langkah berikut:
-1. Buka file konfigurasi dengan perintah
+Langkah-langkah yang harus dilakukan setelah instalasi adalah:
+#### A. Menentukan interface mana yang akan diber layanan DHCP
+1. Buka file konfigurasi interface dengan perintah
 	```
 	nano /etc/default/isc-dhcp-server
 	```
@@ -97,7 +98,7 @@ Setelah menentukan interface, langkah selanjutnya adalah __mengonfigurasi DHCP__
 -   Default Gateway
 -   dll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDk4NzU0OCwxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbMTU5NDIyMDI2NCwxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
