@@ -130,11 +130,18 @@ Sehingga konfigurasinya menjadi:
 ```
 service isc-dhcp-server restart
 ```
-Jika terjadi __failed!__, maka stop dulu, kemudia
+Jika terjadi __failed!__, maka stop dulu, kemudian start kembali
+```
+service isc-dhcp-server stop
+service isc-dhcp-server start
+```
 
+![restart isc-dhcp-server](images/5.png)
+
+Konfigurasi DHCP Server selesai!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4MDQ2NTU2LDExMDEzMDkwNDYsMTczNz
-U5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgw
-NywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLT
-U2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTE0NTY1NjI1NSwxMTAxMzA5MDQ2LDE3Mz
+c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
+MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
+01NjEwMjE4NDIsMjA5MDMyOTE0OF19
 -->
