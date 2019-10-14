@@ -179,9 +179,11 @@ Periksa juga apakah __PSYDUCK__ sudah mendapatkan DNS server sesuai konfigurasi 
 cat /etc/resolv.conf
 ```
 
+![DNS PSYDUCK](images/10.png)
 
+Bila IP dan nameserver __PSYDUCK__ telah berubah sesuai dengan range IP yang diberikan oleh DHCP. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDYyNDA4MSwtMTQ1NjU2MjU1LDExMD
+eyJoaXN0b3J5IjpbLTY3NDU5MDY2MiwtMTQ1NjU2MjU1LDExMD
 EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
 OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
 IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
