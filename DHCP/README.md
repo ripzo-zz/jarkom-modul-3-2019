@@ -172,10 +172,10 @@ __Keterangan__:
 #### B. Testing
 Cek kembali IP __PSYDUCK__ dengan menjalankan `ifconfig`
 
-![IP PSYDUCK](ima)
+![IP PSYDUCK](images/9.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Nzk5NzY1OCwtMTQ1NjU2MjU1LDExMD
-EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
-OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
-IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbNzM5MTUxNjcwLC0xNDU2NTYyNTUsMTEwMT
+MwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5
+MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMj
+A3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
