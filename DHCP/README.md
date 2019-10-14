@@ -209,11 +209,13 @@ Setelah IP dipinjamkan ke sebuah client, maka IP tersebut tidak akan diberikan k
 Untuk menyelesaikan kasus tersebut, DHCP Server memiliki layanan untuk "menyewakan" alamat IP secara tetap pada suatu host, yakni __Fixed Address__. Dalam kasus ini, __CUBONE__ akan mendapatkan IP tetap 192.168.0.15
 
 #### A. Konfigurasi DHCP Server di router PIKACHU
-##### A.1. Buka `/etc/network/interfaces` untuk mengonfigurasi interface __PSYDUCK__
+##### A.1. Buka file konfigurasi DHCP dengan perintah
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODgxNzY0NjIsLTEwOTAwNzg3NDgsLT
-E0NTY1NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5
-MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NS
-wyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5
-MDMyOTE0OF19
+eyJoaXN0b3J5IjpbMTc0NzI1NTA2NywtMTA5MDA3ODc0OCwtMT
+Q1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3Mzky
+NTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LD
+IxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkw
+MzI5MTQ4XX0=
 -->
