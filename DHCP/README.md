@@ -39,9 +39,9 @@ Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP
 
 ### 1.1.4 DHCP Message Header
 
-![DHCP header]()
+![DHCP header](DHCP-message-header.png)
 
-![DHCP header legend]()
+![DHCP header legend](DHCP-message-header-keterangan.png)
 
 ### 1.1.5 Cara Kerja DHCP
 DHCP bekerja dengan melibatkan dua pihak yakni __Server__ dan __Client__:
@@ -49,7 +49,7 @@ DHCP bekerja dengan melibatkan dua pihak yakni __Server__ dan __Client__:
 	2. __DHCP Client__ adalah mesin client yang menjalankan perangkat lunak client yang memungkinkan mereka untuk dapat berkomunikasi dengan DHCP server.
 DHCP Server umumnya memiliki sekumpulan alamat IP yang didistribusikan yang disebut DHCP Pool. Setiap client akan meminjamnya untuk rentan waktu yang ditentukan oleh DHCP sendiri (dalam konfigurasi). Jika masa waktu habis, maka client akan meminta alamat IP yang baru atau memperpanjangnya. Itulah sebabnya alamat IP client menjadi dinamis.
 
-![DHCP Architecture]()
+![Cara kerja DHCP](images/DHCP)
 
 Terdapat 4 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
 	1. __DHCPDISCOVER__: Client menyebarkan request secara broadcast untuk mencari DHCP Server yang aktif. DHCP Server menggunakan UDP port 67 untuk menerima broadcast dari client melalui port 68.
@@ -283,10 +283,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQyODc0NTQsMTMwMjE2MDU1Nyw3Nj
-MxNjYxNDQsLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1
-MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0Ni
-wxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4
-MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMj
-MxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTE0NDgwNTg4NDQsLTEzMjQyODc0NTQsMT
+MwMjE2MDU1Nyw3NjMxNjYxNDQsLTEwNjM0MzkxNTUsLTEzMDk0
+MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNT
+UsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEy
+MDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNz
+g2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhd
+fQ==
 -->
