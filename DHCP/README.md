@@ -251,8 +251,18 @@ hwaddress ether 'hwaddress_CUBONE'
 __Keterangan__:
 Hardware addresss perlu di-_setting_ juga di `/etc/network/interfaces` karena perangkat yang kalian gunakan adalah perangkat virtual (UML), dimana hwaddress-nya akan berubah setiap kali dijalankan.
 
+#### B.3. Restart network dengan perintah `service networking restart`
+
+![hasil restart network](images/18.png)
+
+#### C. Testing
+Periksa IP __CUBONE__ dengan melakukan `ifconfig`
+
+![ifconfig CUBONE](images/19.png)
+
+IP __CUBONE__ telah berubah m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDkwOTExNSwtMTA2MzQzOTE1NSwtMT
+eyJoaXN0b3J5IjpbLTQ0NDM3MTQ5NCwtMTA2MzQzOTE1NSwtMT
 MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
 NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
 0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
