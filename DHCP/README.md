@@ -268,12 +268,20 @@ Setelah melakukan berbagai konfigurasi di atas, kalian bisa memastikan apakah DH
 2. Jalankan UML kalian kemabali dengan `bash topologi.sh`
 3. Periksa IP di semua client dengan `ifconfig`
 
-![PSYDUCK](images/20.)
+![PSYDUCK setelah restart](images/20.png)
+
+![SNORLAX setelah restart](images/21.png)
+
+![CUBONE setelah restart](images/22.png)
+
+Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang telah dikonfigurasi DHCP dan __CUBONE__ tetap mendapatkan IP 192.168.0.15, maka konfigurasi DHCP server kalian berhasil.
+
+## Refere
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTc0Njk1MCwtMTA2MzQzOTE1NSwtMT
-MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
-NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
-0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
-MDI3ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOT
-E0OF19
+eyJoaXN0b3J5IjpbLTE5NTU0ODI2NzQsLTEwNjM0MzkxNTUsLT
+EzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2
+NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OC
+wtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEz
+MDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMj
+kxNDhdfQ==
 -->
