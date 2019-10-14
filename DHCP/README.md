@@ -78,7 +78,7 @@ __[FAIL]__ Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah
 
 ### 1.2.2 Konfigurasi DHCP Server
 Langkah-langkah yang harus dilakukan setelah instalasi adalah:
-#### A. Menentukan interface mana yang akan diber layanan DHCP
+#### A. Menentukan interface mana yang akan diberi layanan DHCP
 1. Buka file konfigurasi interface dengan perintah
 	```
 	nano /etc/default/isc-dhcp-server
@@ -90,15 +90,15 @@ INTERFACES="eth2"
 
 ![setting interface](images/2.png)
 
-Setelah menentukan interface, langkah selanjutnya adalah __mengonfigurasi DHCP__-nya. Ada banyak hal yang dapat dikonfigurasi, antara lain:
-
--   Range IP
--   DNS Server
--   Informasi Netmask
--   Default Gateway
--   dll
+#### B. Langkah selanjutnya adalah __mengonfigurasi DHCP
+Ada banyak hal yang dapat dikonfigurasi, antara lain:
++ Range IP
++ DNS Server
++ Informasi Netmask
++ Default Gateway
++ dll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDIyMDI2NCwxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbMTA3OTkyNTg3MywxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
