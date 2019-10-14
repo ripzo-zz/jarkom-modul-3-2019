@@ -167,11 +167,14 @@ __Keterangan__:
 
 ##### A.4. Restart network dengan perintah `service networking restart`
 
-![]()
+![hasil restart network](images/8.png)
 
+#### B. Testing
+Cek kembali IP __PSYDUCK__ dengan menjalankan `ifconfig`
 
+![IP PSYDUCK](ima)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTEzNDgxOSwtMTQ1NjU2MjU1LDExMD
+eyJoaXN0b3J5IjpbLTQ0Nzk5NzY1OCwtMTQ1NjU2MjU1LDExMD
 EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
 OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
 IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
