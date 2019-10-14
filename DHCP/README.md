@@ -60,6 +60,8 @@ Terdapat 4 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
 
 ![Something]()
 
+Lebih lanjut: [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
+
 ## 1.2 Implementasi
 ### 1.2.1 Instalasi ISC-DHCP-Server
 Pada topologi ini, kita akan menjadikan router __PIKACHU__ sebagai DHCP Server. Oleh sebab itu, kita harus meng-_install_ __isc-dhcp-server__ di __PIKACHU__ dengan melakukan langkah-langkah berikut:
@@ -281,10 +283,10 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjE2MDU1Nyw3NjMxNjYxNDQsLTEwNj
-M0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4
-NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC
-0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAz
-NzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxOD
-QyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMjQyODc0NTQsMTMwMjE2MDU1Nyw3Nj
+MxNjYxNDQsLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1
+MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0Ni
+wxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4
+MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMj
+MxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
