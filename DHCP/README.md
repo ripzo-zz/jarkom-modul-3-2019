@@ -92,7 +92,7 @@ INTERFACES="eth2"
 	
 ![setting interface](images/2.png)
 
-#### B. Langkah selanjutnya adalah __mengonfigurasi DHCP
+#### B. Langkah selanjutnya adalah mengonfigurasi DHCP
 Ada banyak hal yang dapat dikonfigurasi, antara lain:
 + Range IP
 + DNS Server
@@ -139,9 +139,35 @@ service isc-dhcp-server start
 ![restart isc-dhcp-server](images/5.png)
 
 Konfigurasi DHCP Server selesai!
+
+### 1.2.3 Konfigurasi DHCP Client
+Setelah mengonfigurasi server, kita juga perlu mengonfigurasi interface client supaya bisa mendapatkan layanan dari DHCP server. Di dalam topologi ini, clientnya adalah __PSYDUCK__, __SNORLAX__, dan __CUBONE__.
+#### A. Mengonfigurasi Client
+##### A.1. Periksa IP PSYDUCK dengan `ifconfig`
+
+![IP PSYDUCK](images/6.png)
+
+Dari konfigurasi sebelumnya, __PSYDUCK__ telah diberikan IP statis 192.168.0.2
+##### A.2. Buka `/etc/network/interfaces` untuk mengonfigurasi interface __PSYDUCK__
+```
+nano /etc/network/interfaces
+```
+##### A.3. Comment atau hapus konfigurasi yang lama (konfigurasi IP statis)
+Lalu tambahkan:
+```
+auto eth0
+iface eth0 inet dhcp
+```
+
+![interface PSYDUCK](images/7.png)
+
+__Keterangan__:
+	+ __eth0__ adalah interface yang digunakan client
+	+ `iface eth0 inet dhcp`: memberikan konfigurasi DHCP pada interface eth0, bukan konfigurasi statis
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY1NjI1NSwxMTAxMzA5MDQ2LDE3Mz
-c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
-MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
-01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbLTc5NTg2NTk5NiwtMTQ1NjU2MjU1LDExMD
+EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
+OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
+IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
