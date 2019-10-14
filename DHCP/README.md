@@ -207,10 +207,13 @@ Setelah IP dipinjamkan ke sebuah client, maka IP tersebut tidak akan diberikan k
 > Ternyata PC __CUBONE__ selain menjadi client, juga akan digunakan sebagai server suatu aplikasi, sehingga akan menyulitkan jika IP nya berganti-ganti setiap __CUBONE__ terhubung ke jaringan internet. Oleh karena itu, __CUBONE__ membutuhkan IP yang tidak berganti-ganti.
 
 Untuk menyelesaikan kasus tersebut, DHCP Server memiliki layanan untuk "menyewakan" alamat IP secara tetap pada suatu host, yakni __Fixed Address__. Dalam kasus ini, __CUBONE__ akan mendapatkan IP tetap 192.168.0.15
+
+#### A. Konfigurasi DHCP Server di router PIKACHU
+##### A.1. Buka `/etc/network/interfaces` untuk mengonfigurasi interface __PSYDUCK__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA3OTI0OCwtMTA5MDA3ODc0OCwtMT
-Q1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3Mzky
-NTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LD
-IxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkw
-MzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTExODgxNzY0NjIsLTEwOTAwNzg3NDgsLT
+E0NTY1NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5
+MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NS
+wyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5
+MDMyOTE0OF19
 -->
