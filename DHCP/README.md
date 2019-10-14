@@ -80,15 +80,15 @@ __[FAIL]__ Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah
 Langkah-langkah yang harus dilakukan setelah instalasi adalah:
 #### A. Menentukan interface mana yang akan diberi layanan DHCP
 ##### A.1. Buka file konfigurasi interface dengan perintah
-	```
-	nano /etc/default/isc-dhcp-server
-	```
+```
+nano /etc/default/isc-dhcp-server
+```
 ##### A.2. Tentukan interface.
 Coba perhatikan topologi yang telah kalian buat. Interface dari router __PIKACHU__ yang menuju ke client __PSYDUCK__, __SNORLAX__, dan __CUBONE__ adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
 	
-	```
-	INTERFACES="eth2"
-	```
+```
+INTERFACES="eth2"
+```
 	
 ![setting interface](images/2.png)
 
@@ -100,17 +100,24 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 + Default Gateway
 + dll.
 ##### B.1.  Buka file konfigurasi DHCP dengan perintah
-	```
-	nano /etc/dhcp/dhcpd.conf
-	```
+```
+nano /etc/dhcp/dhcpd.conf
+```
 ##### B.2. Tambahkan script berikut
-	```
-	sdfs
-	```
-	
+```
+subnet 'NID' netmask 'Netmask' {
+    range 'IP_Awal' 'IP_Akhir';
+    option routers 'iP_Gateway';
+    option broadcast-address 'IP_Broadcast';
+    option domain-name-servers 'DNS_yang_diinginkan';
+    default-lease-time 'Waktu';
+    max-lease-time 'Waktu';
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkxMjYyOTQsMTEwMTMwOTA0NiwxNz
-M3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4
-ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNC
-wtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTYwMjQxNzU3OSwxMTAxMzA5MDQ2LDE3Mz
+c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
+MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
+01NjEwMjE4NDIsMjA5MDMyOTE0OF19
 -->
