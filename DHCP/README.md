@@ -120,10 +120,15 @@ Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP
 |---|---|---|
 | 1 | `subnet 'NID'` | Netword ID pada subnet |
 
+![informasi](images/3.png)
+
+Sehingga konfigurasinya menjadi seperti ini:
+```
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ2MDE1NzQsMTEwMTMwOTA0NiwxNz
+eyJoaXN0b3J5IjpbLTE3NzUxMDAxOTUsMTEwMTMwOTA0NiwxNz
 M3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4
 ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNC
 wtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
