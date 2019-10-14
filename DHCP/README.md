@@ -104,10 +104,19 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 	nano /etc/dhcp/dhcpd.conf
 	```
 ##### B.2. Tambahkan script berikut
-
+	```
+	subnet 'NID' netmask 'Netmask' {
+    range 'IP_Awal' 'IP_Akhir';
+    option routers 'iP_Gateway';
+    option broadcast-address 'IP_Broadcast';
+    option domain-name-servers 'DNS_yang_diinginkan';
+    default-lease-time 'Waktu';
+    max-lease-time 'Waktu';
+	}
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODg5MzM3MCwxMTAxMzA5MDQ2LDE3Mz
-c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
-MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
-01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbMjIwNDg3MjMxLDExMDEzMDkwNDYsMTczNz
+U5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgw
+NywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLT
+U2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
