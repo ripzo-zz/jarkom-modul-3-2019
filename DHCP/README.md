@@ -196,13 +196,17 @@ __Keterangan__:
 
 + Client __CUBONE__
 
-![SNORLAX 1](images/11.png)
+![CUBONE 1](images/11.png)
 
-![SNORLAX 2](images/12.png)
+![CUBONE 2](images/12.png)
+
+Setelah IP dipinjamkan ke sebuah client, maka IP tersebut tidak akan diberikan ke client lain. Buktinya, tidak ada client yang mendapatkan IP yang sama.
+
+### 1.2.4 Fixed Address
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyOTgxODI1LC0xNDU2NTYyNTUsMTEwMT
-MwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5
-MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMj
-A3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTEwOTAwNzg3NDgsLTE0NTY1NjI1NSwxMT
+AxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4
+NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC
+0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
 -->
