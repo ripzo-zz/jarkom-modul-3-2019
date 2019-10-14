@@ -122,14 +122,19 @@ Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP
 
 ![informasi](images/3.png)
 
-Sehingga konfigurasinya menjadi seperti ini:
-```
-```
+Sehingga konfigurasinya menjadi:
 
+![konfigurasi DHCP Server](images/4.png)
+
+##### A.3. Restart service `isc-dhcp-server` dengan perintah
+```
+service isc-dhcp-server restart
+```
+Jika terjadi __failed!__, maka stop dulu, kemudia
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUxMDAxOTUsMTEwMTMwOTA0NiwxNz
-M3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4
-ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNC
-wtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbMjg4MDQ2NTU2LDExMDEzMDkwNDYsMTczNz
+U5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgw
+NywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLT
+U2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
