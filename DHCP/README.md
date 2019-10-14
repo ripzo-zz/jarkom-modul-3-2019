@@ -260,9 +260,9 @@ Periksa IP __CUBONE__ dengan melakukan `ifconfig`
 
 ![ifconfig CUBONE](images/19.png)
 
-IP __CUBONE__ telah berubah m
+IP __CUBONE__ telah berubah menjadi 192.168.0.15 sesuai dengan Fixed Address yang diberikan oleh DHCP Server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDM3MTQ5NCwtMTA2MzQzOTE1NSwtMT
+eyJoaXN0b3J5IjpbMTA5MTkxMzkzOSwtMTA2MzQzOTE1NSwtMT
 MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
 NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
 0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
