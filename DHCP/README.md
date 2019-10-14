@@ -263,9 +263,14 @@ Periksa IP __CUBONE__ dengan melakukan `ifconfig`
 IP __CUBONE__ telah berubah menjadi 192.168.0.15 sesuai dengan Fixed Address yang diberikan oleh DHCP Server.
 
 ### 1.2.5 Testing
-Setelah melakukan berbagai konfigurasi di atas, kalian bisa memastikan apakah DHCP Server kalian berhasil dengan cara
+Setelah melakukan berbagai konfigurasi di atas, kalian bisa memastikan apakah DHCP Server kalian berhasil dengan cara:
+1. Matikan UML kalian dengan `bash bye.sh`
+2. Jalankan UML kalian kemabali dengan `bash topologi.sh`
+3. Periksa IP di semua client dengan `ifconfig`
+
+![PSYDUCK](images/20.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTk3MjE0OSwtMTA2MzQzOTE1NSwtMT
+eyJoaXN0b3J5IjpbLTg5NTc0Njk1MCwtMTA2MzQzOTE1NSwtMT
 MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
 NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
 0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
