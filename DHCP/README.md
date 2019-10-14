@@ -229,9 +229,14 @@ __Penjelasan__:
 
 ![HWaddr CUBONE](images/16.png)
 
-+ __fixed-addresss
++ __fixed-address__ adalah alamat IP yang "disewa" tetap oleh __CUBONE__
+
+##### A.3. Restart service `isc-dhcp-server` dengan perintah
+```
+service isc-dhcp-server restart
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQzNDUyMzMsLTEzMDk0MDMyMDEsOT
+eyJoaXN0b3J5IjpbLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOT
 M3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMw
 OTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MS
 wxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3
