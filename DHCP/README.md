@@ -117,11 +117,13 @@ subnet 'NID' netmask 'Netmask' {
 Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP, seperti informasi netmask, default gateway dan DNS server. Berikut ini beberapa parameter jaringan dasar yang biasanya digunakan:
 
 | __No__ | __Parameter Jaringan__ | __Keterangan__ |
+|---|---|---|
 | 1 | `subnet 'NID'` | Netword ID pada subnet |
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEzMTQ2NTcsMTEwMTMwOTA0NiwxNz
+eyJoaXN0b3J5IjpbLTE3NjQ2MDE1NzQsMTEwMTMwOTA0NiwxNz
 M3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4
 ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNC
 wtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
