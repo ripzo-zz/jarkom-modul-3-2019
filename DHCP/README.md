@@ -235,10 +235,13 @@ __Penjelasan__:
 ```
 service isc-dhcp-server restart
 ```
+#### B. Konfigurasi DHCP Client
+##### B.1. Buka `/etc/network/interfaces` untuk mengonfigurasi interface __CUBONE__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOT
-M3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMw
-OTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MS
-wxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3
-NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTg5NTcwMDU5NSwtMTA2MzQzOTE1NSwtMT
+MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
+NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
+0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
+MDI3ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOT
+E0OF19
 -->
