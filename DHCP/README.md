@@ -181,10 +181,14 @@ cat /etc/resolv.conf
 
 ![DNS PSYDUCK](images/10.png)
 
-Bila IP dan nameserver __PSYDUCK__ telah berubah sesuai dengan range IP yang diberikan oleh DHCP. 
+Bila IP dan nameserver __PSYDUCK__ telah berubah sesuai dengan konfigurasi yang diberikan oleh DHCP, maka selamat. Kalian telah berhasil!
+
+__Keterangan__:
++ 1.  -   Jika IP **SOTO** masih belum berubah, jangan panik. Lakukanlah kembali `service networking restart`
+    -   Jika masih belum berubah juga, jangan buru-buru bertanya. Coba cek lagi semua konfigurasi yang telah kamu lakukan, mungkin ada typo-typo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDU5MDY2MiwtMTQ1NjU2MjU1LDExMD
-EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
-OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
-IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbMTg5MzM2MzYwLC0xNDU2NTYyNTUsMTEwMT
+MwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5
+MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMj
+A3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
