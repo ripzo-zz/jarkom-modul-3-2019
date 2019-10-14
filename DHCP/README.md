@@ -226,10 +226,14 @@ host cubone {
 
 __Penjelasan__:
 + Untuk mencari `'hwaddress_cubone'` (hardware address) kalian bisa memeriksanya di UML __CUBONE__ dengan command `ifconfig`
+
+![HWaddr CUBONE](images/16.png)
+
++ __fixed-addresss
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMD
-kwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5
-NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LD
-ExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYx
-MDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQzNDUyMzMsLTEzMDk0MDMyMDEsOT
+M3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMw
+OTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MS
+wxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3
+NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
