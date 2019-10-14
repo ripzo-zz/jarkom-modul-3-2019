@@ -221,11 +221,14 @@ host cubone {
 }
 ```
 
-![]
+![konfigurasi fixed address pada DHCP server](images/15.png)
+
+__Penjelasan__:
++ Untuk mencari `'hwaddress_cubone'` (hardware address) kalian bisa memeriksanya di UML __CUBONE__ dengan command `ifconfig`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDk1OTgwMCwtMTA5MDA3ODc0OCwtMT
-Q1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3Mzky
-NTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LD
-IxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkw
-MzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbOTM3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xND
+U2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1
+OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMj
+EzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAz
+MjkxNDhdfQ==
 -->
