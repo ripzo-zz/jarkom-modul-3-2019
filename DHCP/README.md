@@ -10,12 +10,12 @@
 		+ [1.1.5 Cara Kerja DHCP](#115-cara-kerja-dhcp)
 	+  [1.2 Implementasi](#12-implementasi)
 		+ [1.2.1 Instalasi ISC-DHCP-Server](#121-instalasi-isc-dhcp-server)
-	    + [1.2.2 Konfigurasi DHCP Server](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#122-konfigurasi-dhcp-server)
-	   + [1.2.3 Konfigurasi DHCP Client](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#123-konfigurasi-dhcp-client)
-	   + [1.2.4 Fixed Address](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#124-fixed-address)
-	   + [1.2.5 Testing](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#125-testing)
-	+ [1.3 Soal Latihan](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#13-soal-latihan)
-	+ [1.4 Referensi](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#14-referensi)
+	    + [1.2.2 Konfigurasi DHCP Server](#122-konfigurasi-dhcp-server)
+	   + [1.2.3 Konfigurasi DHCP Client](#123-konfigurasi-dhcp-client)
+	   + [1.2.4 Fixed Address](#124-fixed-address)
+	   + [1.2.5 Testing](#125-testing)
+	+ [1.3 Soal Latihan](#13-soal-latihan)
+	+ [1.4 Referensi](14-referensi)
 
 ## 1.1 Konsep
 ### 1.1.1 Pendahuluan
@@ -281,7 +281,7 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjM4NTg3Niw3NjMxNjYxNDQsLTEwNj
+eyJoaXN0b3J5IjpbMTMwMjE2MDU1Nyw3NjMxNjYxNDQsLTEwNj
 M0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4
 NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC
 0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAz
