@@ -237,11 +237,21 @@ service isc-dhcp-server restart
 ```
 #### B. Konfigurasi DHCP Client
 ##### B.1. Buka `/etc/network/interfaces` untuk mengonfigurasi interface __CUBONE__
+```
+nano /etc/network/interfaces
+```
+##### B.2. Buka `/etc/network/interfaces` untuk mengonfigurasi interface __CUBONE__
+Lalu tambahkan:
+```
+hwaddress ether 'hwaddress_CUBONE'
+```
+
+![interface C
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTcwMDU5NSwtMTA2MzQzOTE1NSwtMT
-MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
-NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
-0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
-MDI3ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOT
-E0OF19
+eyJoaXN0b3J5IjpbLTc1MTIyMzg3LC0xMDYzNDM5MTU1LC0xMz
+A5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OCwtMTQ1NjU2
+MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLT
+ExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAw
+Mjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MT
+Q4XX0=
 -->
