@@ -39,9 +39,9 @@ Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP
 
 ### 1.1.4 DHCP Message Header
 
-![DHCP header](DHCP-message-header.png)
+![DHCP header](images/DHCP-message-header.png)
 
-![DHCP header legend](DHCP-message-header-keterangan.png)
+![DHCP header legend](images/DHCP-message-header-keterangan.png)
 
 ### 1.1.5 Cara Kerja DHCP
 DHCP bekerja dengan melibatkan dua pihak yakni __Server__ dan __Client__:
@@ -283,11 +283,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQyODQwMDMsLTEzMjQyODc0NTQsMT
-MwMjE2MDU1Nyw3NjMxNjYxNDQsLTEwNjM0MzkxNTUsLTEzMDk0
-MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xNDU2NTYyNT
-UsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEy
-MDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNz
-g2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhd
-fQ==
+eyJoaXN0b3J5IjpbMTkxNDUzNTYzMSwtMTMyNDI4NzQ1NCwxMz
+AyMTYwNTU3LDc2MzE2NjE0NCwtMTA2MzQzOTE1NSwtMTMwOTQw
+MzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1NjI1NS
+wxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIw
+NTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3OD
+Y0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+
 -->
