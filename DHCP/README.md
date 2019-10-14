@@ -114,10 +114,11 @@ subnet 'NID' netmask 'Netmask' {
     max-lease-time 'Waktu';
 }
 ```
-
+Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP, seperti informasi netmask, default gateway dan DNS server. Berikut ini beberapa parameter jaringan dasar yang biasanya digunakan:
+| __No__ | __Parameter Jaringan__ | __Keterangan__ |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjQxNzU3OSwxMTAxMzA5MDQ2LDE3Mz
-c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
-MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
-01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbODIzNjA4NDg3LDExMDEzMDkwNDYsMTczNz
+U5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgw
+NywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLT
+U2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
