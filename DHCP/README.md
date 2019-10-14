@@ -173,9 +173,16 @@ __Keterangan__:
 Cek kembali IP __PSYDUCK__ dengan menjalankan `ifconfig`
 
 ![IP PSYDUCK](images/9.png)
+
+Periksa juga apakah __PSYDUCK__ sudah mendapatkan DNS server sesuai konfigurasi di DHCP. Periksa `/etc/resolv.conf` dengan menggunakan perintah
+```
+cat /etc/resolv.conf
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5MTUxNjcwLC0xNDU2NTYyNTUsMTEwMT
-MwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5
-MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMj
-A3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
+eyJoaXN0b3J5IjpbMTQ2MDYyNDA4MSwtMTQ1NjU2MjU1LDExMD
+EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
+OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
+IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
 -->
