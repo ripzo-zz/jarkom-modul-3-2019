@@ -99,9 +99,12 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 + Informasi Netmask
 + Default Gateway
 + dll.
-
+##### B.1.  Buka file konfigurasi DHCP dengan perintah
+	```
+	nano /etc/dhcp/dhcpd.conf
+	``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDA4NDg5NiwxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbMTEzODAzMDE0NSwxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
