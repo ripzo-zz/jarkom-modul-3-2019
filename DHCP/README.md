@@ -196,17 +196,19 @@ __Keterangan__:
 
 + Client __CUBONE__
 
-![CUBONE 1](images/11.png)
+![CUBONE 1](images/13.png)
 
-![CUBONE 2](images/12.png)
+![CUBONE 2](images/14.png)
 
 Setelah IP dipinjamkan ke sebuah client, maka IP tersebut tidak akan diberikan ke client lain. Buktinya, tidak ada client yang mendapatkan IP yang sama.
 
 ### 1.2.4 Fixed Address
-
+> __Sebuah Kasus__:
+> Ternyata PC **PECEL** selain menjadi client, juga akan digunakan sebagai server suatu aplikasi, sehingga akan menyulitkan jika IP nya berganti-ganti setiap **PECEL** terhubung ke jaringan internet. Oleh karena itu, **PECEL** membutuhkan IP yang tidak berganti-ganti.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAwNzg3NDgsLTE0NTY1NjI1NSwxMT
-AxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4
-NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC
-0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbMTMwMTk1MTg4NiwtMTA5MDA3ODc0OCwtMT
+Q1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3Mzky
+NTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LD
+IxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkw
+MzI5MTQ4XX0=
 -->
