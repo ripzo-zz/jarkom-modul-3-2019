@@ -102,9 +102,11 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 ##### B.1.  Buka file konfigurasi DHCP dengan perintah
 	```
 	nano /etc/dhcp/dhcpd.conf
-	``
+	```
+##### B.2. Tambahkan script berikut
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODAzMDE0NSwxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbMTI3ODg5MzM3MCwxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
