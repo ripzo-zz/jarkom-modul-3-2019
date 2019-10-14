@@ -204,6 +204,7 @@ Setelah IP dipinjamkan ke sebuah client, maka IP tersebut tidak akan diberikan k
 
 ### 1.2.4 Fixed Address
 > __Sebuah Kasus__:
+> 
 > Ternyata PC __CUBONE__ selain menjadi client, juga akan digunakan sebagai server suatu aplikasi, sehingga akan menyulitkan jika IP nya berganti-ganti setiap __CUBONE__ terhubung ke jaringan internet. Oleh karena itu, __CUBONE__ membutuhkan IP yang tidak berganti-ganti.
 
 Untuk menyelesaikan kasus tersebut, DHCP Server memiliki layanan untuk "menyewakan" alamat IP secara tetap pada suatu host, yakni __Fixed Address__. Dalam kasus ini, __CUBONE__ akan mendapatkan IP tetap 192.168.0.15
@@ -226,9 +227,9 @@ host cubone {
 __Penjelasan__:
 + Untuk mencari `'hwaddress_cubone'` (hardware address) kalian bisa memeriksanya di UML __CUBONE__ dengan command `ifconfig`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MDc1MDgzLC0xMDkwMDc4NzQ4LC0xND
-U2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1
-OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMj
-EzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAz
-MjkxNDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMD
+kwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5
+NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LD
+ExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYx
+MDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
