@@ -87,9 +87,17 @@ Langkah pertama yang harus dilakukan setelah instalasi adalah menentukan interfa
 INTERFACES="eth2"
 ```
 
-~
+![setting interface](images/2.png)
+
+Setelah menentukan interface, langkah selanjutnya adalah __mengonfigurasi DHCP__-nya. Ada banyak hal yang dapat dikonfigurasi, antara lain:
+
+-   Range IP
+-   DNS Server
+-   Informasi Netmask
+-   Default Gateway
+-   dll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTczNzY5OCwxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbLTI1NDk4NzU0OCwxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
