@@ -246,12 +246,16 @@ Lalu tambahkan:
 hwaddress ether 'hwaddress_CUBONE'
 ```
 
-![interface C
+![interface CUBONE](images/17.png)
+
+__Keterangan__:
+Hardware addresss perlu di-_setting_ juga di `/etc/network/interfaces` karena perangkat yang kalian gunakan adalah perangkat virtual (UML), dimana hwaddress-nya akan berubah setiap kali dijalankan.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTIyMzg3LC0xMDYzNDM5MTU1LC0xMz
-A5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OCwtMTQ1NjU2
-MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLT
-ExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAw
-Mjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MT
-Q4XX0=
+eyJoaXN0b3J5IjpbMTA2NDkwOTExNSwtMTA2MzQzOTE1NSwtMT
+MwOTQwMzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1
+NjI1NSwxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC
+0xMTIwNTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMw
+MDI3ODY0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOT
+E0OF19
 -->
