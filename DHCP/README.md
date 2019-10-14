@@ -89,8 +89,8 @@ Coba perhatikan topologi yang telah kalian buat. Interface dari router __PIKACHU
 	```
 	INTERFACES="eth2"
 	```
-
-	![setting interface](images/2.png)
+	
+![setting interface](images/2.png)
 
 #### B. Langkah selanjutnya adalah __mengonfigurasi DHCP
 Ada banyak hal yang dapat dikonfigurasi, antara lain:
@@ -105,18 +105,12 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 	```
 ##### B.2. Tambahkan script berikut
 	```
-	subnet 'NID' netmask 'Netmask' {range 'IP_Awal' 'IP_Akhir';
-    option routers 'iP_Gateway';
-    option broadcast-address 'IP_Broadcast';
-    option domain-name-servers 'DNS_yang_diinginkan';
-    default-lease-time 'Waktu';
-    max-lease-time 'Waktu';
-    }
+	sdfs
 	```
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Njg3MTgwNywxMTAxMzA5MDQ2LDE3Mz
-c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
-MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
-01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbLTEzNTkxMjYyOTQsMTEwMTMwOTA0NiwxNz
+M3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4
+ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNC
+wtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
