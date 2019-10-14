@@ -211,9 +211,19 @@ Untuk menyelesaikan kasus tersebut, DHCP Server memiliki layanan untuk "menyewak
 #### A. Konfigurasi DHCP Server di router PIKACHU
 ##### A.1. Buka file konfigurasi DHCP dengan perintah
 ```
+nano /etc/dhcp/dhcpd.conf
+```
+##### A.2. Tambahkan script berikut
+```
+host cubone {
+    hardware ethernet 'hwaddress_cubone';
+    fixed-address 192.168.0.15;
+}
+```
 
+![]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzI1NTA2NywtMTA5MDA3ODc0OCwtMT
+eyJoaXN0b3J5IjpbLTIyMDk1OTgwMCwtMTA5MDA3ODc0OCwtMT
 Q1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3Mzky
 NTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LD
 IxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkw
