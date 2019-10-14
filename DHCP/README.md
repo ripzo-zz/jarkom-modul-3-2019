@@ -165,8 +165,13 @@ __Keterangan__:
 + __eth0__ adalah interface yang digunakan client
 + `iface eth0 inet dhcp`: memberikan konfigurasi DHCP pada interface eth0, bukan konfigurasi statis
 
+##### A.4. Restart network dengan perintah `service networking restart`
+
+![]()
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODU5NDQyMCwtMTQ1NjU2MjU1LDExMD
+eyJoaXN0b3J5IjpbLTY1OTEzNDgxOSwtMTQ1NjU2MjU1LDExMD
 EzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLTExMjA1ODg3
 OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAwMjc4NjQsLT
 IwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MTQ4XX0=
