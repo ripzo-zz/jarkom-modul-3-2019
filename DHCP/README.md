@@ -187,10 +187,22 @@ __Keterangan__:
 + Jika IP __PSYDUCK__ masih belum berubah, jangan panik. Lakukanlah kembali `service networking restart`
 + Jika masih belum berubah juga, jangan buru-buru bertanya. Coba periksa lagi semua konfigurasi yang telah kalian lakukan, mungkin terdapat kesalahan penulisan.
 
-#### C. Lakukan kembali langkah - langkah di atas pada client 
+#### C. Lakukan kembali langkah - langkah di atas pada client SNORLAX dan CUBONE
++ Client __SNORLAX__
+
+![SNORLAX 1](images/11.png)
+
+![SNORLAX 2](images/12.png)
+
++ Client __CUBONE__
+
+![SNORLAX 1](images/11.png)
+
+![SNORLAX 2](images/12.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA0Mjg0NDIsLTE0NTY1NjI1NSwxMT
-AxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4
-NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC
-0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
+eyJoaXN0b3J5IjpbOTYyOTgxODI1LC0xNDU2NTYyNTUsMTEwMT
+MwOTA0NiwxNzM3NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5
+MSwxMzc4MTk4ODA3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMj
+A3NzgzMjMxNCwtNTYxMDIxODQyLDIwOTAzMjkxNDhdfQ==
 -->
