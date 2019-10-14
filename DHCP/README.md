@@ -1,6 +1,6 @@
 ## 1. Dynamic Host Configuration Protocol (DHCP)
 ## Outline
-+ [1. Dynamic Host Configuration Protocol (DHCP)]()
++ [1. Dynamic Host Configuration Protocol (DHCP)](#1-dynamic-host-configuration-protocol-dhcp)
 	+ [Outline]()
 	+ [1.1 Konsep]()
 		+ [1.1.1 Pendahuluan]()
@@ -281,10 +281,10 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMTY2MTQ0LC0xMDYzNDM5MTU1LC0xMz
-A5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OCwtMTQ1NjU2
-MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNTgsLT
-ExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIxMzAw
-Mjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0MiwyMDkwMzI5MT
-Q4XX0=
+eyJoaXN0b3J5IjpbODY1NjYyMDUsNzYzMTY2MTQ0LC0xMDYzND
+M5MTU1LC0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0
+OCwtMTQ1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMT
+A3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzcz
+MjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0Mi
+wyMDkwMzI5MTQ4XX0=
 -->
