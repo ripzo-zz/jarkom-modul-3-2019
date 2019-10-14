@@ -3,13 +3,13 @@
 + [1. Dynamic Host Configuration Protocol (DHCP)](#1-dynamic-host-configuration-protocol-dhcp)
 	+ [Outline](#outline)
 	+ [1.1 Konsep](#11-konsep)
-		+ [1.1.1 Pendahuluan]()
-		+ [1.1.2 Apa itu DHCP?]()
-		+ [1.1.3 Bootstrap Protocol dan DHCP]()
-		+ [1.1.4 DHCP Message Header]()
-		+ [1.1.5 Cara Kerja DHCP]()
-	+  [1.2 Implementasi](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#12-implementasi)
-		+ [1.2.1 Instalasi ISC-DHCP-Server](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#121-instalasi-isc-dhcp-server)
+		+ [1.1.1 Pendahuluan](#111-pendahuluan)
+		+ [1.1.2 Apa itu DHCP?](#112-apa-itu-dhcp)
+		+ [1.1.3 Bootstrap Protocol dan DHCP](#113-bootstrap-protocol-dan-dhcp)
+		+ [1.1.4 DHCP Message Header](#114-dhcp-message-header)
+		+ [1.1.5 Cara Kerja DHCP](#115-cara-kerja-dhcp)
+	+  [1.2 Implementasi](#12-implementasi)
+		+ [1.2.1 Instalasi ISC-DHCP-Server](#121-instalasi-isc-dhcp-server)
 	    + [1.2.2 Konfigurasi DHCP Server](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#122-konfigurasi-dhcp-server)
 	   + [1.2.3 Konfigurasi DHCP Client](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#123-konfigurasi-dhcp-client)
 	   + [1.2.4 Fixed Address](https://github.com/yogamahottama/jarkom-modul-3/tree/master/DHCP-Server#124-fixed-address)
@@ -281,10 +281,10 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA0NTUxNjgsNzYzMTY2MTQ0LC0xMD
-YzNDM5MTU1LC0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3
-ODc0OCwtMTQ1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MC
-wtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMw
-MzczMjQ1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMT
-g0MiwyMDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTg1MjM4NTg3Niw3NjMxNjYxNDQsLTEwNj
+M0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC0xMDkwMDc4
+NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3NTk5NDUwLC
+0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4ODA3LDExMzAz
+NzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwtNTYxMDIxOD
+QyLDIwOTAzMjkxNDhdfQ==
 -->
