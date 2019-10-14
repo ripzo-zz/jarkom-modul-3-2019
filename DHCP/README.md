@@ -79,11 +79,13 @@ __[FAIL]__ Eits, jangan panik dulu!!! Coba dibaca baik-baik, yang gagal bukanlah
 ### 1.2.2 Konfigurasi DHCP Server
 Langkah-langkah yang harus dilakukan setelah instalasi adalah:
 #### A. Menentukan interface mana yang akan diberi layanan DHCP
-1. Buka file konfigurasi interface dengan perintah
+##### A.1. Buka file konfigurasi interface dengan perintah
 	```
 	nano /etc/default/isc-dhcp-server
 	```
-2. Menentukan interface. Coba topologi yang telah kalian buat. Interface dari router __PIKACHU__ yang menuju ke client __PSYDUCK__, __SNORLAX__, dan __CUBONE__ adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
+##### A.2. Tentukan interface.
+Coba perhatikan topologi yang telah kalian buat. Interface dari router __PIKACHU__ yang menuju ke client __PSYDUCK__, __SNORLAX__, dan __CUBONE__ adalah `eth2`, maka kita akan memilih interface `eth2` untuk diberikan layanan DHCP.
+	
 	```
 	INTERFACES="eth2"
 	```
@@ -96,9 +98,10 @@ Ada banyak hal yang dapat dikonfigurasi, antara lain:
 + DNS Server
 + Informasi Netmask
 + Default Gateway
-dll
++ dll.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI0ODc0MCwxMTAxMzA5MDQ2LDE3Mz
+eyJoaXN0b3J5IjpbMTQ2MDA4NDg5NiwxMTAxMzA5MDQ2LDE3Mz
 c1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgxOTg4
 MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0yMDc3ODMyMzE0LC
 01NjEwMjE4NDIsMjA5MDMyOTE0OF19
