@@ -15,7 +15,7 @@
 	   + [1.2.4 Fixed Address](#124-fixed-address)
 	   + [1.2.5 Testing](#125-testing)
 	+ [1.3 Soal Latihan](#13-soal-latihan)
-	+ [1.4 Referensi](14-referensi)
+	+ [1.4 Referensi](referensi)
 
 ## 1.1 Konsep
 ### 1.1.1 Pendahuluan
@@ -283,11 +283,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzUyMDI5NywxOTE0NTM1NjMxLC0xMz
-I0Mjg3NDU0LDEzMDIxNjA1NTcsNzYzMTY2MTQ0LC0xMDYzNDM5
-MTU1LC0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OC
-wtMTQ1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3
-MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMj
-Q1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0Miwy
-MDkwMzI5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTgwNTc5Nzc3OSwtMjk3NTIwMjk3LDE5MT
+Q1MzU2MzEsLTEzMjQyODc0NTQsMTMwMjE2MDU1Nyw3NjMxNjYx
+NDQsLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC
+0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3
+NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4OD
+A3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwt
+NTYxMDIxODQyXX0=
 -->
