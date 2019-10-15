@@ -14,8 +14,7 @@
 	   + [1.2.3 Konfigurasi DHCP Client](#123-konfigurasi-dhcp-client)
 	   + [1.2.4 Fixed Address](#124-fixed-address)
 	   + [1.2.5 Testing](#125-testing)
-	+ [1.3 Soal Latihan](#13-soal-latihan)
-	+ [1.4 Referensi](referensi)
+	+ [Referensi](#referensi)
 
 ## 1.1 Konsep
 ### 1.1.1 Pendahuluan
@@ -291,11 +290,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjU4MTk1NiwxMzczMzQ0MjQ0LDE5Nj
-IyMzgxODgsLTI5NzUyMDI5NywxOTE0NTM1NjMxLC0xMzI0Mjg3
-NDU0LDEzMDIxNjA1NTcsNzYzMTY2MTQ0LC0xMDYzNDM5MTU1LC
-0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OCwtMTQ1
-NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNT
-gsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIx
-MzAwMjc4NjRdfQ==
+eyJoaXN0b3J5IjpbMzAxNjMxOTUsLTk3NjU4MTk1NiwxMzczMz
+Q0MjQ0LDE5NjIyMzgxODgsLTI5NzUyMDI5NywxOTE0NTM1NjMx
+LC0xMzI0Mjg3NDU0LDEzMDIxNjA1NTcsNzYzMTY2MTQ0LC0xMD
+YzNDM5MTU1LC0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3
+ODc0OCwtMTQ1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MC
+wtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMw
+MzczMjQ1XX0=
 -->
