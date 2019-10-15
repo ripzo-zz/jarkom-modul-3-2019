@@ -52,8 +52,8 @@ DHCP Server umumnya memiliki sekumpulan alamat IP yang didistribusikan yang dise
 ![Cara kerja DHCP](images/DHCP.gif)
 
 Terdapat 4 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
-	1. __DHCPDISCOVER__: Client menyebarkan request secara broadcast untuk mencari DHCP Server yang aktif. DHCP Server menggunakan UDP port 67 untuk menerima broadcast dari client melalui port 68.
-	2. __DHCPOFFER__: DHCP server menawarkan alamat IP (dan konfigurasi lainnya apabila ada) kepada client. Alamat IP yang ditawarkan adalah salah satu alamat yang tersedia dalam DHCP Pool pada DHCP Server yang bersangkutan.
+1. __DHCPDISCOVER__: Client menyebarkan request secara broadcast untuk mencari DHCP Server yang aktif. DHCP Server menggunakan UDP port 67 untuk menerima broadcast dari client melalui port 68.
+2. __DHCPOFFER__: DHCP server menawarkan alamat IP (dan konfigurasi lainnya apabila ada) kepada client. Alamat IP yang ditawarkan adalah salah satu alamat yang tersedia dalam DHCP Pool pada DHCP Server yang bersangkutan.
 	3. __DHCPREQUEST__: Client menerima tawaran dan menyetujui peminjaman alamat IP tersebut kepada DHCP Server.
 	4. __DHCPACK__: DHCP server menyetujui permintaan alamat IP dari client dengan mengirimkan paket ACKnoledgment berupa konfirmasi alamat IP dan informasi lain. Kemudian client melakukan inisialisasi dengan mengikat (binding) alamat IP tersebut dan client dapat bekerja pada jaringan tersebut. DHCP Server akan mencatat peminjaman yang terjadi.
 	5. __DHCPRELEASE__: Client menghentikan peminjaman alamat IP (apabila waktu peminjaman habis atau menerima DHCPNAK).
@@ -283,11 +283,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDUzNTYzMSwtMTMyNDI4NzQ1NCwxMz
-AyMTYwNTU3LDc2MzE2NjE0NCwtMTA2MzQzOTE1NSwtMTMwOTQw
-MzIwMSw5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1NjI1NS
-wxMTAxMzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIw
-NTg4NzkxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3OD
-Y0LC0yMDc3ODMyMzE0LC01NjEwMjE4NDIsMjA5MDMyOTE0OF19
-
+eyJoaXN0b3J5IjpbLTY3NDE4NTE4NSwxOTE0NTM1NjMxLC0xMz
+I0Mjg3NDU0LDEzMDIxNjA1NTcsNzYzMTY2MTQ0LC0xMDYzNDM5
+MTU1LC0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OC
+wtMTQ1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3
+MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMj
+Q1LDIxMzAwMjc4NjQsLTIwNzc4MzIzMTQsLTU2MTAyMTg0Miwy
+MDkwMzI5MTQ4XX0=
 -->
