@@ -4,7 +4,7 @@
  * 2 Proxy Server
 	 * [Outline](#Outline)
 	 * Pengertian, Fungsi, dan Manfaat
-		 * 2.1.1	[Pengertian](#2.1.1-pengertian)
+		 * 2.1.1	[Pengertian](#211-pengertian)
 		 * 2.1.2	Fungsi
 		 * 2.1.3	Manfaat
 		 * 2.1.4	Software Proxy Server
