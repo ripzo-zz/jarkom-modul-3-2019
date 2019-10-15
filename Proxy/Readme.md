@@ -49,7 +49,7 @@ Beberapa contoh software proxy server yang sering digunakan adalah sebagai berik
 4. Nginx
 
 ### 2.1.5 Cara Kerja Squid
-![Gambar](images/schemeofsquid.GIF)
+![Gambar](images/schemeofsquid.png)
 
 ## 2.2 Implementasi
 Untuk praktikum jarkom kali ini, software proxy server yang digunakan adalah **Squid** dan UML yang digunakan sebagai proxy server adalah **Mewtwo**
