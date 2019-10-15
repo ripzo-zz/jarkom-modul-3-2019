@@ -92,7 +92,7 @@ visible_hostname mewtwo
 
 **Keterangan:**
 
--   `http_port 8080` : Port yang digunakan untuk mengakses proxy, dalam kasus ini adalah **8080**. (Sintaks: `http_port 'PORT_YANG_DIINGINKAN'`)
+-   `http_port 7777` : Port yang digunakan untuk mengakses proxy, dalam kasus ini adalah **7777**. (Sintaks: `http_port 'PORT_YANG_DIINGINKAN'`)
 -   `visible_hostname mewtwo` : Nama proxy yang akan terlihat oleh user (Sintaks: `visible_hostname 'NAMA_YANG_DIINGINKAN'`)
 
 **STEP 4** - Restart squid dengan cara mengetikkan perintah:
@@ -101,7 +101,7 @@ service squid3 restart
 ```
 ![gambar](images/6.png)
 
-**STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host dan isikan port **8080**. Kemudian cobalah untuk mengakses web **[http://its.ac.id](http://its.ac.id)** (usahakan menggunakan mode **incognito/private**). Maka akan muncul halaman seperti berikut:
+**STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host dan isikan port **7777**. Kemudian cobalah untuk mengakses web **[http://its.ac.id](http://its.ac.id)** (usahakan menggunakan mode **incognito/private**). Maka akan muncul halaman seperti berikut:
 
 ![gambar](images/7.png)
 
@@ -166,7 +166,7 @@ http_access allow USERS
 
 **STEP 4** - Restart squid
 
-**STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host, dan isikan port **8080**. Kemudian cobalah untuk mengakses web **elearning.if.its.ac.id** (usahakan menggunakan mode **incognito/private**), akan muncul pop-up untuk login.
+**STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP mewtwo** sebagai host, dan isikan port **7777**. Kemudian cobalah untuk mengakses web **elearning.if.its.ac.id** (usahakan menggunakan mode **incognito/private**), akan muncul pop-up untuk login.
 
 ![Gambar](images/13.png)
 
@@ -204,7 +204,7 @@ nano /etc/squid3/squid.conf
 ```
 include /etc/squid3/acl.conf
 
-http_port 8080
+http_port 7777
 http_access allow KERJA
 http_access deny all
 visible_hostname mewtwo
@@ -244,7 +244,7 @@ elearning.if.its.ac.id
 **STEP 3** - Ubah file konfigurasi squid menjadi seperti berikut ini.
 
 ```
-http_port 8080
+http_port 7777
 visible_hostname mewtwo
 
 acl BLACKLISTS dstdomain "/etc/squid3/bad-sites.acl"
@@ -286,7 +286,7 @@ delay_parameters 1 16000/64000
 **STEP 3** - Ubah konfigurasi squid3 menjadi:
 ```
 include /etc/squid3/acl-bandwidth.conf
-http_port 8080
+http_port 7777
 visible_hostname mewtwo
 http_access allow all
 ```
