@@ -121,6 +121,8 @@ Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP
 | __No__ | __Parameter Jaringan__ | __Keterangan__ |
 |---|---|---|
 | 1 | `subnet 'NID'` | Netword ID pada subnet |
+| 2 | `netmask 'Netmask` | Netmask pada subnet |
+| 3 |
 
 ![informasi](images/3.png)
 
@@ -283,7 +285,7 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTc5Nzc3OSwtMjk3NTIwMjk3LDE5MT
+eyJoaXN0b3J5IjpbMTI5NDgyNzc1NywtMjk3NTIwMjk3LDE5MT
 Q1MzU2MzEsLTEzMjQyODc0NTQsMTMwMjE2MDU1Nyw3NjMxNjYx
 NDQsLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC
 0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3
