@@ -125,7 +125,9 @@ Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP
 | 3 | `range 'IP_Awal' 'IP_Akhir' | Rentang alamat IP yang akan didistribusikan dan digunakan secara dinamis |
 | 4 | `option routers 'Gateway'` | IP gateway dari router menuju client sesuai konfigurasi subnet |
 | 5 | `option broadcast-address 'IP_Broadcast' | IP broadcast pada subnet |
-| 6
+| 6 | `option domain-name-servers 'DNS_yang_diinginkan' | DNS yang ingin kita berikan pada client |
+| 7 | Lease time | Waktu yang dialokasikan ketika sebuah IP dipinjamkan kepada komputer client. Setelah waktu pinjam ini selesai, maka IP tersebut dapat dipinjam lagi oleh komputer yang sama atau komputer tersebut mendapatkan alamat IP lain jika alamat IP yang sebelumnya dipinjam, dipergunakan oleh komputer lain |
+| 8 | `default-lease-time 'Waktu' | Lama waktu DHCP server meminjamkan alamat IP kepada client, dalam satuan detik. 
 
 ![informasi](images/3.png)
 
@@ -288,7 +290,7 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTA5MzQ2NywtMjk3NTIwMjk3LDE5MT
+eyJoaXN0b3J5IjpbMjEyNTkzMDM1MywtMjk3NTIwMjk3LDE5MT
 Q1MzU2MzEsLTEzMjQyODc0NTQsMTMwMjE2MDU1Nyw3NjMxNjYx
 NDQsLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC
 0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3
