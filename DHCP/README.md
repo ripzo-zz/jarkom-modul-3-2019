@@ -44,8 +44,8 @@ Selain DHCP, terdapat protokol lain yang juga memudahkan pengalokasian alamat IP
 
 ### 1.1.5 Cara Kerja DHCP
 DHCP bekerja dengan melibatkan dua pihak yakni __Server__ dan __Client__:
-	1. __DHCP Server__ memberikan suatu layanan yang dapat memberikan alamat IP dan parameter lainnya kepada semua client yang memintanya.
-	2. __DHCP Client__ adalah mesin client yang menjalankan perangkat lunak client yang memungkinkan mereka untuk dapat berkomunikasi dengan DHCP server.
+1. __DHCP Server__ memberikan suatu layanan yang dapat memberikan alamat IP dan parameter lainnya kepada semua client yang memintanya.
+2. __DHCP Client__ adalah mesin client yang menjalankan perangkat lunak client yang memungkinkan mereka untuk dapat berkomunikasi dengan DHCP server.
 DHCP Server umumnya memiliki sekumpulan alamat IP yang didistribusikan yang disebut DHCP Pool. Setiap client akan meminjamnya untuk rentan waktu yang ditentukan oleh DHCP sendiri (dalam konfigurasi). Jika masa waktu habis, maka client akan meminta alamat IP yang baru atau memperpanjangnya. Itulah sebabnya alamat IP client menjadi dinamis.
 
 ![Cara kerja DHCP](images/DHCP.gif)
@@ -290,11 +290,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNjMxOTUsLTk3NjU4MTk1NiwxMzczMz
-Q0MjQ0LDE5NjIyMzgxODgsLTI5NzUyMDI5NywxOTE0NTM1NjMx
-LC0xMzI0Mjg3NDU0LDEzMDIxNjA1NTcsNzYzMTY2MTQ0LC0xMD
-YzNDM5MTU1LC0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3
-ODc0OCwtMTQ1NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MC
-wtMTA3MzkyNTgsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMw
-MzczMjQ1XX0=
+eyJoaXN0b3J5IjpbMjMwMzUyNjE5LDMwMTYzMTk1LC05NzY1OD
+E5NTYsMTM3MzM0NDI0NCwxOTYyMjM4MTg4LC0yOTc1MjAyOTcs
+MTkxNDUzNTYzMSwtMTMyNDI4NzQ1NCwxMzAyMTYwNTU3LDc2Mz
+E2NjE0NCwtMTA2MzQzOTE1NSwtMTMwOTQwMzIwMSw5MzcwNzUw
+ODMsLTEwOTAwNzg3NDgsLTE0NTY1NjI1NSwxMTAxMzA5MDQ2LD
+E3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4NzkxLDEzNzgx
+OTg4MDddfQ==
 -->
