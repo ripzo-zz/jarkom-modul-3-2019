@@ -124,11 +124,11 @@ Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP
 | 2 | `netmask 'Netmask` | Netmask pada subnet |
 | 3 | `range 'IP_Awal' 'IP_Akhir' | Rentang alamat IP yang akan didistribusikan dan digunakan secara dinamis |
 | 4 | `option routers 'Gateway'` | IP gateway dari router menuju client sesuai konfigurasi subnet |
-| 5 | `option broadcast-address 'IP_Broadcast' | IP broadcast pada subnet |
-| 6 | `option domain-name-servers 'DNS_yang_diinginkan' | DNS yang ingin kita berikan pada client |
+| 5 | `option broadcast-address 'IP_Broadcast'` | IP broadcast pada subnet |
+| 6 | `option domain-name-servers 'DNS_yang_diinginkan'` | DNS yang ingin kita berikan pada client |
 | 7 | Lease time | Waktu yang dialokasikan ketika sebuah IP dipinjamkan kepada komputer client. Setelah waktu pinjam ini selesai, maka IP tersebut dapat dipinjam lagi oleh komputer yang sama atau komputer tersebut mendapatkan alamat IP lain jika alamat IP yang sebelumnya dipinjam, dipergunakan oleh komputer lain |
-| 8 | `default-lease-time 'Waktu' | Lama waktu DHCP server meminjamkan alamat IP kepada client, dalam satuan detik. Default 600 detik |
-| 9 | `max-lease-time 'Waktu' | Waktu maksimal yang di alokasikan untuk peminjaman IP oleh DHCP server ke client dalam satuan detik. Default 7200 detik |
+| 8 | `default-lease-time 'Waktu'` | Lama waktu DHCP server meminjamkan alamat IP kepada client, dalam satuan detik. Default 600 detik |
+| 9 | `max-lease-time 'Waktu'` | Waktu maksimal yang di alokasikan untuk peminjaman IP oleh DHCP server ke client dalam satuan detik. Default 7200 detik |
 
 ![informasi](images/3.png)
 
@@ -291,11 +291,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjIzODE4OCwtMjk3NTIwMjk3LDE5MT
-Q1MzU2MzEsLTEzMjQyODc0NTQsMTMwMjE2MDU1Nyw3NjMxNjYx
-NDQsLTEwNjM0MzkxNTUsLTEzMDk0MDMyMDEsOTM3MDc1MDgzLC
-0xMDkwMDc4NzQ4LC0xNDU2NTYyNTUsMTEwMTMwOTA0NiwxNzM3
-NTk5NDUwLC0xMDczOTI1OCwtMTEyMDU4ODc5MSwxMzc4MTk4OD
-A3LDExMzAzNzMyNDUsMjEzMDAyNzg2NCwtMjA3NzgzMjMxNCwt
-NTYxMDIxODQyXX0=
+eyJoaXN0b3J5IjpbMTM3MzM0NDI0NCwxOTYyMjM4MTg4LC0yOT
+c1MjAyOTcsMTkxNDUzNTYzMSwtMTMyNDI4NzQ1NCwxMzAyMTYw
+NTU3LDc2MzE2NjE0NCwtMTA2MzQzOTE1NSwtMTMwOTQwMzIwMS
+w5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1NjI1NSwxMTAx
+MzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4Nz
+kxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0y
+MDc3ODMyMzE0XX0=
 -->
