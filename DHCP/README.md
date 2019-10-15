@@ -122,7 +122,7 @@ Script tersebut mengatur parameter jaringan yang dapat didistribusikan oleh DHCP
 |---|---|---|
 | 1 | `subnet 'NID'` | Netword ID pada subnet |
 | 2 | `netmask 'Netmask` | Netmask pada subnet |
-| 3 | `range 'IP_Awal' 'IP_Akhir' | Rentang alamat IP yang akan didistribusikan dan digunakan secara dinamis |
+| 3 | `range 'IP_Awal' 'IP_Akhir'` | Rentang alamat IP yang akan didistribusikan dan digunakan secara dinamis |
 | 4 | `option routers 'Gateway'` | IP gateway dari router menuju client sesuai konfigurasi subnet |
 | 5 | `option broadcast-address 'IP_Broadcast'` | IP broadcast pada subnet |
 | 6 | `option domain-name-servers 'DNS_yang_diinginkan'` | DNS yang ingin kita berikan pada client |
@@ -291,11 +291,11 @@ Jika __PSYDUCK__ dan __SNORLAX__ berganti alamat IP sesuai dengan range yang tel
 -   [https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf](https://www.nada.kth.se/kurser/kth/2D1392/05/lectures/lecture_9.pdf)
 -   [http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm](http://www.tcpipguide.com/free/t_DHCPGeneralOperationandClientFiniteStateMachine.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzM0NDI0NCwxOTYyMjM4MTg4LC0yOT
-c1MjAyOTcsMTkxNDUzNTYzMSwtMTMyNDI4NzQ1NCwxMzAyMTYw
-NTU3LDc2MzE2NjE0NCwtMTA2MzQzOTE1NSwtMTMwOTQwMzIwMS
-w5MzcwNzUwODMsLTEwOTAwNzg3NDgsLTE0NTY1NjI1NSwxMTAx
-MzA5MDQ2LDE3Mzc1OTk0NTAsLTEwNzM5MjU4LC0xMTIwNTg4Nz
-kxLDEzNzgxOTg4MDcsMTEzMDM3MzI0NSwyMTMwMDI3ODY0LC0y
-MDc3ODMyMzE0XX0=
+eyJoaXN0b3J5IjpbLTk3NjU4MTk1NiwxMzczMzQ0MjQ0LDE5Nj
+IyMzgxODgsLTI5NzUyMDI5NywxOTE0NTM1NjMxLC0xMzI0Mjg3
+NDU0LDEzMDIxNjA1NTcsNzYzMTY2MTQ0LC0xMDYzNDM5MTU1LC
+0xMzA5NDAzMjAxLDkzNzA3NTA4MywtMTA5MDA3ODc0OCwtMTQ1
+NjU2MjU1LDExMDEzMDkwNDYsMTczNzU5OTQ1MCwtMTA3MzkyNT
+gsLTExMjA1ODg3OTEsMTM3ODE5ODgwNywxMTMwMzczMjQ1LDIx
+MzAwMjc4NjRdfQ==
 -->
