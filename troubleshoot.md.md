@@ -12,7 +12,7 @@ Silahkan baca terlebih dahulu sebelum kamu mengalami serangan panik akut heheheh
 * Penyebab: Mungkin kamu belum mengetikkan `iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16` atau belum mengubah `/etc/sysctl.conf` di router.
 * Solusi:
     1. Menjalankan `iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16` pada router **BAKSO** agar client bisa terhubung dengan internet.
-    2. Ubah `/etc/sysctl.conf` seperti [Modul Pengenalan UML](https://github.com/rohanaq/Modul-Pengenalan-UML).
+    2. Ubah `/etc/sysctl.conf` seperti [Modul Pengenalan UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML).
 
 #### 3. Apt-get update gagal
 * **Jenis 1**
@@ -51,7 +51,7 @@ Silahkan baca terlebih dahulu sebelum kamu mengalami serangan panik akut heheheh
   ![Masalah 2](img/trouble-2.png)
   * Solusi:
     1. Menjalankan `iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16` pada router.
-    2. Ubah `/etc/sysctl.conf` seperti [Modul Pengenalan UML](https://github.com/rohanaq/Modul-Pengenalan-UML).
+    2. Ubah `/etc/sysctl.conf` seperti [Modul Pengenalan UML](https://github.com/afrchmdi/Jarkom-Modul-Pengenalan-UML).
 
 #### 4. Segmentation fault
 * Penyebab: Mistis
@@ -76,5 +76,5 @@ Silahkan baca terlebih dahulu sebelum kamu mengalami serangan panik akut heheheh
 **SARAN:** 
 Selalu back-up semua konfigurasi kamu pada setiap UML. Sehingga, jika sewaktu-waktu UML ada yang segfault, maka kamu tinggal copy-paste konfigurasi.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI0ODYyODFdfQ==
+eyJoaXN0b3J5IjpbMzk5MzU2NTgxLC0xMzIyNDg2MjgxXX0=
 -->
