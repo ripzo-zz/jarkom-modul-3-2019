@@ -50,7 +50,7 @@ DHCP Server umumnya memiliki sekumpulan alamat IP yang didistribusikan yang dise
 
 ![Cara kerja DHCP](images/DHCP.gif)
 
-Terdapat 4 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
+Terdapat 5 tahapan yang dilakukan dalam proses peminjaman alamat IP pada DHCP:
 1. __DHCPDISCOVER__: Client menyebarkan request secara broadcast untuk mencari DHCP Server yang aktif. DHCP Server menggunakan UDP port 67 untuk menerima broadcast dari client melalui port 68.
 2. __DHCPOFFER__: DHCP server menawarkan alamat IP (dan konfigurasi lainnya apabila ada) kepada client. Alamat IP yang ditawarkan adalah salah satu alamat yang tersedia dalam DHCP Pool pada DHCP Server yang bersangkutan.
 3. __DHCPREQUEST__: Client menerima tawaran dan menyetujui peminjaman alamat IP tersebut kepada DHCP Server.
